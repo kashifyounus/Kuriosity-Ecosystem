@@ -5,16 +5,16 @@
 | Identifier | KE-GOV-001 |
 | Title | Artifact Taxonomy, Naming, Metadata, and Lifecycle Standard |
 | Artifact Type | Standard |
-| Version | 2.0 |
-| Lifecycle Status | Effective |
+| Version | 2.1 |
+| Lifecycle Status | Proposed |
 | Approval Status | Approved |
 | Verification Status | Pass |
 | Authority | KE-005 through KE-007 |
 | Owner | Ecosystem Governance Authority |
-| Effective Date | 2026-07-29 |
+| Effective Date | Pending publication |
 | Scope | KE artifact identifiers, canonical metadata, lifecycle, naming, authority, and duplication control |
 | Amendment Path | KE-007 |
-| Supersession State | Current; supersedes KE-GOV-001 Version 1.0 |
+| Supersession State | Candidate; supersedes Version 2.0 upon KE v2.1.0 effectiveness |
 
 ## 1. Identifier Model
 
@@ -29,7 +29,8 @@ Normative KE artifacts use `KE-{DOMAIN}-{NNN}` or reserved foundation identifier
 | SEC | Security |
 | DATA | Data |
 | ARCH | Architecture |
-| REL | Release |
+| REL | Release declarations, manifests, and other release records |
+| RLS | Release engineering and assurance standards |
 | AI | AI engineering |
 
 Registers use `KE-REG-NNN`, reports `KE-RPT-NNN`, plans `KE-PLAN-NNN`, decisions `KE-ADR-NNN`, approvals `KE-APR-NNN`, exceptions `KE-EXC-NNN`, and history records `KE-HIST-NNN`.
@@ -78,4 +79,4 @@ One normative topic shall have one canonical source. A new artifact requires evi
 
 ## 7. Approval
 
-Version 2.0 approved by the Kuriosity Ecosystem Founding Authority on 2026-07-29 through KE-APR-003.
+Version 2.1 approved by the Product Owner on 2026-07-30 through KE-APR-004. It preserves `KE-REL-*` for historical and future release records and establishes `KE-RLS-*` for normative release engineering standards. Version 2.1 becomes effective only with KE v2.1.0 publication and successful post-merge verification.

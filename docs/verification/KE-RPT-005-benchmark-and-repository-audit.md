@@ -2,12 +2,16 @@
 
 | Field | Value |
 |---|---|
-| Status | Final; Advisory Review Only |
+| Identifier | KE-RPT-005 |
+| Title | Benchmark and Repository Audit |
+| Artifact Type | Audit Report; non-normative |
+| Lifecycle Status | Archived |
+| Approval Status | Not Applicable |
+| Verification Status | Pass |
 | Date | 2026-07-29 |
 | Scope | KE v1.1.0 benchmark and repository audit |
-| Authoritative baseline | `main` at `51f8b5cb493eae7dc77f707b44d5aaaea34a3e80` |
-| Authority | KE-000, KE-005, KE-006, KE-REV-001 |
-| Classification | Non-normative controlled report |
+| Authoritative Baseline | `main` at `51f8b5cb493eae7dc77f707b44d5aaaea34a3e80` |
+| Authority | KE-000, KE-005, KE-006, and KE-REV-001 |
 
 ## 1. Executive Summary
 
@@ -15,7 +19,7 @@ KE v1.1.0 is a coherent founding governance baseline and is independently mainta
 
 KE is not yet operationally complete as an enterprise engineering framework. The current repository contains a small foundation and four operational standards, while every recognized capability platform remains mandate-pending. Architecture-description governance, measurable platform maturity gates, security governance, data governance, release evidence, AI governance, repository enforcement, and reusable templates remain incomplete.
 
-One release-governance contradiction requires Product Owner resolution: KE-007 classifies a breaking governance or adoption change as a major release, while KE v1.1.0 used a minor identifier for retirement of a platform/adoption authority. This report does not amend the effective baseline.
+The audit identified a release-governance contradiction: KE-007 classifies a breaking governance or adoption change as a major release, while KE v1.1.0 used a minor identifier for retirement of a platform/adoption authority. The Product Owner approved corrective Option 1; KE-APR-003 and the KE v2.0.0 candidate resolve the decision gate without rewriting history.
 
 ## 2. Repository Assessment
 
@@ -192,6 +196,10 @@ This audit creates no normative obligation and changes no effective KE instrumen
 | Platform admission completeness | Fail |
 | Full GitHub ruleset configuration inspection | Not Reviewed; connector evidence unavailable |
 
-## 9. Next Audit Scope
+## 9. Decision Resolution
 
-After the Product Owner resolves G-001, the next controlled package shall cover metadata normalization, lifecycle-state normalization, repository enforcement, and the architecture-governance standard. Platform mandates shall remain pending until these horizontal controls are effective.
+On 2026-07-29, the Product Owner approved Option 1: a corrective KE v2.0.0 foundation package. KE-APR-003 records the authority. The candidate closes G-001, G-002, G-003, G-004 repository-controlled evidence, and G-005. Administrative GitHub ruleset verification remains separate from repository-controlled evidence.
+
+## 10. Next Audit Scope
+
+After KE v2.0.0 publication, the next controlled audit shall cover administrative repository controls, security, data, release-depth, and AI standards. Platform mandates remain pending until the horizontal foundation is Effective.

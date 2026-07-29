@@ -22,7 +22,7 @@
 - Authoritative branch after publication: `main`
 - Candidate branch: `agent/ke-horizontal-controls-audit`
 - Publication PR: `#8`
-- Verified candidate head: pending final branch verification
+- Candidate identity: current head of PR #8; exact immutable SHA recorded in the publication handoff and reverified before merge
 
 ## Normative Inventory
 

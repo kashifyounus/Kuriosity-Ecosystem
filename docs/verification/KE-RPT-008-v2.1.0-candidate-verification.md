@@ -18,7 +18,7 @@
 
 ## Executive Result
 
-The bounded KE v2.1.0 candidate is internally coherent and ready for repository-controlled validation. It remains non-effective and unmerged.
+The bounded KE v2.1.0 candidate is internally coherent, passed repository-controlled validation, and remains non-effective and unmerged.
 
 ## Verification Matrix
 
@@ -36,11 +36,11 @@ The bounded KE v2.1.0 candidate is internally coherent and ready for repository-
 | Effective KE v2.0.0 manifest rewritten | Pass; no |
 | Administrative branch-protection compliance claimed | Pass; no |
 | Post-merge effectiveness claimed | Pass; no |
+| Repository validation on candidate content | Pass; run #17 on `800c99812fffcad3c4dc3251758c09b14f0a8c44` |
 
 ## Remaining Publication Gates
 
-1. final remote-head and manifest parity verification;
-2. repository-validation workflow success on the exact head;
-3. explicit Product Owner publication authorization;
-4. normal merge to `main`; and
-5. post-merge verification and activation-only metadata update.
+1. final remote-head and manifest parity confirmation at handoff;
+2. explicit Product Owner publication authorization;
+3. normal merge to `main`; and
+4. post-merge verification and activation-only metadata update.

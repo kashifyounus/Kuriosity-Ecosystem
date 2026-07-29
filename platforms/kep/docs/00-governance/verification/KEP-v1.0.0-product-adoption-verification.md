@@ -6,7 +6,7 @@
 | Status | Final |
 | Verification Date | July 25, 2026 |
 | Release | KEP Framework v1.0.0 |
-| Repository | `kashifyounus/Kuriosity-Ecosystem` (`platforms/kep/`) |
+| Repository | `kashifyounus/kuriosity-engineering-platform` |
 | Manifest | `docs/00-governance/releases/KEP-v1.0.0-release-manifest.md` |
 | Outcome | Pass |
 

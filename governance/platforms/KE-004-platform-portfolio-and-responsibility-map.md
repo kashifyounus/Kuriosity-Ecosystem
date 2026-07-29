@@ -6,11 +6,11 @@
 |---|---|
 | Identifier | KE-004 |
 | Title | Platform Portfolio and Responsibility Map |
-| Version | 0.1 |
-| Status | Proposed for Ratification |
+| Version | 1.0 |
+| Status | Ratified; Effective |
 | Authority Level | Portfolio governance; subordinate to KE-000 through KE-003 |
 | Owner | Kuriosity Ecosystem Founding Authority |
-| Effective Date | Not effective until ratified |
+| Effective Date | 2026-07-29 |
 | Applies To | Current and future KE platforms |
 
 ## 1. Purpose
@@ -70,8 +70,8 @@ Migration of KEP content into `platforms/kep/` establishes a proposed new canoni
 
 | Field | Value |
 |---|---|
-| Ratified By | Pending |
+| Ratified By | Kuriosity Ecosystem Founding Authority |
 | Authority | Kuriosity Ecosystem Founding Authority |
-| Effective Date | Pending |
-| Approval Record | Pending |
+| Effective Date | 2026-07-29 |
+| Approval Record | `governance/approvals/KE-foundation-v1.0-ratification-and-relocation-approval-record.md` |
 

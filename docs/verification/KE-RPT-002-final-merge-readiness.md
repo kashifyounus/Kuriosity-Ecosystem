@@ -11,13 +11,14 @@
 | Pull Request | #2 |
 | Publication Branch | `agent/ke-source-of-truth-alignment` |
 | Target Branch | `main` |
-| Outcome | Blocked pending administrative and repository gates |
+| Outcome | Ready for authorized migration merge; release effectiveness remains conditional |
 
 ## 1. Approved Decisions
 
 | Decision | Repository evidence | Result |
 |---|---|---|
-| Private founding repositories | Foundation approval record | Approved; execution not verified |
+| Private founding repositories | Foundation approval record | Approved; administrative execution deferred |
+| Temporary migration visibility exception | KE-EXC-001 | Approved; migration merge may proceed |
 | SNS_GATEWAY secondary context | v1.0.1 secondary-context validation | Pass |
 | KE-001 through KE-004 ratification | Version 1.0 metadata and ratification records | Pass |
 | KEP v1.0.1 relocation package | Declaration, manifest, approval, verification, and adoption guidance | Prepared |
@@ -26,14 +27,15 @@
 
 | Check | Observed result |
 |---|---|
-| Branch comparison | 42 commits ahead of `main`; 0 behind |
-| Changed files | 87 |
-| Pull request | Open; Draft |
+| Branch comparison | Ahead of `main`; 0 behind |
+| Pull request | Open; Draft at verification checkpoint |
 | Review threads | None |
-| GitHub mergeable flag | `false` |
-| Merge performed | No |
+| Submitted reviews | None |
+| GitHub mergeable flag | `true` |
+| Merge conflict | None reported |
+| Merge performed | Pending authorized operation |
 
-The connector does not expose a more specific mergeability reason. Draft status, repository rules, or another GitHub gate may contribute. The branch shall not be forced or merged while this state remains unresolved.
+GitHub now reports the pull request as mergeable. No unresolved review thread or branch divergence blocks publication.
 
 ## 3. Governance and Release Checks
 
@@ -42,33 +44,31 @@ The connector does not expose a more specific mergeability reason. Draft status,
 | KE-000 remains ratified | Pass |
 | KE-001 through KE-004 are Version 1.0, Ratified, and Effective | Pass |
 | Founding approval record exists | Pass |
+| Temporary visibility exception exists | Pass |
 | KEP v1.0.0 historical canonical repository remains standalone | Pass |
 | KEP v1.0.1 canonical successor coordinates are explicit | Pass |
 | v1.0.1 normative inventory matches v1.0.0 | Pass |
 | SNS_GATEWAY context is materially different | Pass |
 | Upgrade and rollback guidance exists | Pass |
-| KE repository visibility | Fail — GitHub reports `public` |
-| Standalone KEP visibility | Fail — GitHub reports `public` |
-| v1.0.1 effective publication to `main` | Pending |
+| KE repository visibility | Administrative follow-up — public at checkpoint |
+| Standalone KEP visibility | Administrative follow-up — public at checkpoint |
+| Migration publication to `main` | Authorized under KE-EXC-001 |
+| v1.0.1 effective release state | Pending privacy verification and post-merge evidence |
 | Post-merge verification | Pending |
 
 ## 4. Determination
 
-The specification and release-candidate package is complete for final review. Merge readiness is blocked by:
+The KE foundation and KEP relocation migration package is ready for merge to `main`.
 
-1. execution and verification of private visibility for both founding repositories;
-2. resolution or re-evaluation of GitHub's `mergeable: false` state; and
-3. the post-merge verification sequence, which can run only after an authorized merge.
+KE-EXC-001 records the Product Owner's later, narrower decision that temporary public visibility shall not block completion of the migration. That exception does not repeal KEP-001A UD-016 and does not make KEP v1.0.1 effective while the founding repositories remain public.
 
-PR #2 shall remain draft. KEP v1.0.1 remains an approved release candidate and is not yet effective or product-adoptable.
+PR #2 may be marked ready and merged through a normal non-forced repository operation. KEP v1.0.1 shall remain an approved release candidate until its remaining effectiveness conditions are satisfied.
 
-## 5. Required Completion Sequence
+## 5. Completion Sequence
 
-1. Set both founding repositories to private.
-2. Re-verify GitHub metadata reports `visibility: private` for both.
-3. Re-query PR #2 mergeability and repository rules.
-4. If all gates pass, mark PR #2 ready for review.
-5. Complete the authorized merge operation.
-6. Verify `main` inventory, links, coordinates, and release artifacts.
-7. Update v1.0.1 declaration and manifest from candidate to effective.
-8. Publish the post-merge verification record.
+1. Mark PR #2 ready for review.
+2. Merge PR #2 to `main` using the verified head commit.
+3. Verify the `main` inventory, KE foundation artifacts, historical v1.0.0 coordinates, and v1.0.1 candidate artifacts.
+4. Record the migration merge commit and post-merge verification outcome.
+5. Keep KEP v1.0.1 in candidate state until both founding repositories are private.
+6. After privatization, verify repository metadata and update the v1.0.1 declaration and manifest to effective through controlled repository evidence.

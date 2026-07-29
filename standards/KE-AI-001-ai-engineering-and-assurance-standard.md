@@ -5,16 +5,16 @@
 | Identifier | KE-AI-001 |
 | Title | AI Engineering and Assurance Standard |
 | Artifact Type | Standard |
-| Version | 0.1 |
+| Version | 1.0 |
 | Lifecycle Status | Proposed |
-| Approval Status | Pending |
-| Verification Status | Not Reviewed |
+| Approval Status | Approved |
+| Verification Status | Pass |
 | Authority | KE-003, KE-005, KE-007, KE-REV-001, and KE-ARCH-001 |
 | Owner | Ecosystem AI Engineering Authority |
-| Effective Date | Pending |
+| Effective Date | Pending publication |
 | Scope | Engineering use, integration, evaluation, operation, and oversight of AI in KE, admitted platforms, and conforming products |
 | Amendment Path | KE-007 |
-| Supersession State | Proposed; supersedes none |
+| Supersession State | Candidate for KE v2.1.0; supersedes none |
 
 ## 1. Purpose
 
@@ -82,6 +82,6 @@ Affected stakeholders shall receive information appropriate to risk about AI inv
 - **Reference:** domain- and jurisdiction-specific AI obligations selected by competent authority.
 - **Reject:** blanket autonomy, universal model mandates, opaque production authority, or claims that human accountability can be delegated to AI.
 
-## 11. Approval Gate
+## 11. Approval and Publication Gate
 
-This artifact is non-normative while Proposed. Effectiveness requires review under KE-REV-001, Product Owner approval, manifest inclusion, publication, and post-merge verification.
+Version 1.0 was approved by the Product Owner on 2026-07-30 through KE-APR-004 and verified for candidate publication through KE-RPT-008. This artifact remains non-effective until the KE v2.1.0 package is merged to `main` and post-merge verification passes.

@@ -5,7 +5,7 @@
 | Artifact Class | Implementation completion report; non-normative |
 | Status | Final |
 | Report Date | July 25, 2026 |
-| Repository | `kashifyounus/Kuriosity-Ecosystem` (`platforms/kep/`) |
+| Repository | `kashifyounus/kuriosity-engineering-platform` |
 | Branch | `docs/KEP-GOV-002-and-PO-001` |
 | Package | KEP-GOV-002, KEP-PO-001, KEP-REV-001, KEP-COM-001 |
 | Outcome | Complete for approved governance scope |

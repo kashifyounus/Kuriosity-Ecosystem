@@ -6,19 +6,19 @@
 | Title | Data Governance and Quality Standard |
 | Artifact Type | Standard |
 | Version | 1.0 |
-| Lifecycle Status | Proposed |
+| Lifecycle Status | Effective |
 | Approval Status | Approved |
 | Verification Status | Pass |
 | Authority | KE-005, KE-007, KE-REV-001, and KE-ARCH-001 |
 | Owner | Ecosystem Data Authority |
-| Effective Date | Pending publication |
+| Effective Date | 2026-07-30 |
 | Scope | Technology-neutral governance of material data used by KE, admitted platforms, and conforming products |
 | Amendment Path | KE-007 |
-| Supersession State | Candidate for KE v2.1.0; supersedes none |
+| Supersession State | Current; supersedes none |
 
 ## 1. Purpose
 
-This proposed standard defines minimum outcomes for data meaning, ownership, quality, protection, lifecycle, exchange, evidence, and accountability. It adapts ISO 8000 data-quality governance and NIST Privacy Framework risk-management concepts without prescribing a product data model or technology.
+This standard defines minimum outcomes for data meaning, ownership, quality, protection, lifecycle, exchange, evidence, and accountability. It adapts ISO 8000 data-quality governance and NIST Privacy Framework risk-management concepts without prescribing a product data model or technology.
 
 ## 2. Data Accountability
 
@@ -78,4 +78,4 @@ KE defines reusable governance outcomes. A platform may define reusable data cap
 
 ## 11. Approval and Publication Gate
 
-Version 1.0 was approved by the Product Owner on 2026-07-30 through KE-APR-004 and verified for candidate publication through KE-RPT-008. This artifact remains non-effective until the KE v2.1.0 package is merged to `main` and post-merge verification passes.
+Version 1.0 was approved by the Product Owner on 2026-07-30 through KE-APR-004 and verified for candidate publication through KE-RPT-008. This artifact became Effective with KE v2.1.0 publication and successful post-merge verification recorded in KE-RPT-008.

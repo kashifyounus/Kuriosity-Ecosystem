@@ -8,7 +8,7 @@
 | Lifecycle Status | Effective |
 | Owner | KE Repository Maintainer |
 | Date | 2026-07-29 |
-| Scope | KE v2.0.0 effective baseline |
+| Scope | KE v2.0.0 effective baseline and proposed KE v2.1.0 candidate |
 
 ## Foundation and Governance
 
@@ -27,11 +27,15 @@
 
 | ID | Version | Lifecycle | Approval | Verification | Path |
 |---|---:|---|---|---|---|
-| KE-GOV-001 | 2.0 | Effective | Approved | Pass | `standards/KE-GOV-001-artifact-taxonomy-naming-and-lifecycle-standard.md` |
+| KE-GOV-001 | 2.1 | Proposed | Approved | Pass | `standards/KE-GOV-001-artifact-taxonomy-naming-and-lifecycle-standard.md` |
 | KE-PO-001 | 1.0 | Effective | Approved | Pass | `standards/KE-PO-001-product-owner-interaction-standard.md` |
 | KE-REV-001 | 1.0 | Effective | Approved | Pass | `standards/KE-REV-001-engineering-review-standard.md` |
 | KE-COM-001 | 1.0 | Effective | Approved | Pass | `standards/KE-COM-001-engineering-communication-standard.md` |
 | KE-ARCH-001 | 1.0 | Effective | Approved | Pass | `standards/KE-ARCH-001-architecture-description-and-conformance-review-standard.md` |
+| KE-SEC-001 | 1.0 | Proposed | Approved | Pass | `standards/KE-SEC-001-security-engineering-and-assurance-standard.md` |
+| KE-DATA-001 | 1.0 | Proposed | Approved | Pass | `standards/KE-DATA-001-data-governance-and-quality-standard.md` |
+| KE-AI-001 | 1.0 | Proposed | Approved | Pass | `standards/KE-AI-001-ai-engineering-and-assurance-standard.md` |
+| KE-RLS-001 | 1.0 | Proposed | Approved | Pass | `standards/KE-RLS-001-release-engineering-and-assurance-standard.md` |
 
 ## Decisions and Approvals
 
@@ -41,6 +45,7 @@
 | KE-APR-001 | Archived | Approved | `governance/approvals/KE-APR-001-foundation-v1.0-ratification-record.md` |
 | KE-APR-002 | Effective | Approved | `governance/approvals/KE-APR-002-ke-only-authority-and-retirement-approval.md` |
 | KE-APR-003 | Effective | Approved | `governance/approvals/KE-APR-003-corrective-v2-foundation-approval.md` |
+| KE-APR-004 | Effective | Approved | `governance/approvals/KE-APR-004-v2.1.0-horizontal-controls-approval.md` |
 
 ## Releases and Evidence
 
@@ -50,22 +55,15 @@
 | KE-REL-002 | Superseded | Pass | `governance/releases/KE-REL-002-v1.1.0-release-manifest.md` |
 | KE-REL-003 | Effective | Pass | `governance/releases/KE-REL-003-v2.0.0-release-declaration.md` |
 | KE-REL-004 | Effective | Pass | `governance/releases/KE-REL-004-v2.0.0-release-manifest.md` |
+| KE-REL-005 | Proposed | Pass | `governance/releases/KE-REL-005-v2.1.0-release-declaration.md` |
+| KE-REL-006 | Proposed | Pass | `governance/releases/KE-REL-006-v2.1.0-release-manifest.md` |
 | KE-RPT-004 | Archived | Pass | `docs/verification/KE-RPT-004-ke-only-zero-dependency-verification.md` |
 | KE-RPT-005 | Archived | Pass | `docs/verification/KE-RPT-005-benchmark-and-repository-audit.md` |
 | KE-RPT-006 | Archived | Pass | `docs/verification/KE-RPT-006-v2.0.0-foundation-verification.md` |
+| KE-RPT-007 | Archived | Pass | `docs/verification/KE-RPT-007-horizontal-controls-audit.md` |
+| KE-RPT-008 | Review Required | Pass | `docs/verification/KE-RPT-008-v2.1.0-candidate-verification.md` |
 | KE-HIST-001 | Archived | Not Applicable | `reference/history/KE-HIST-001-engineering-platform-retirement-record.md` |
 | KE-REG-002 | Effective | Not Applicable | `reference/registers/KE-REG-002-platform-portfolio-register.md` |
 | KE-TERM-001 | Effective | Not Applicable | `reference/terminology/KE-TERM-001-canonical-terminology.md` |
 
 No active artifact is maintained outside this repository.
-
-## Proposed Horizontal Controls
-
-These artifacts are registered for review and are not part of the effective KE v2.0.0 normative manifest.
-
-| ID | Version | Lifecycle | Approval | Verification | Path |
-|---|---:|---|---|---|---|
-| KE-SEC-001 | 0.1 | Proposed | Pending | Not Reviewed | `standards/KE-SEC-001-security-engineering-and-assurance-standard.md` |
-| KE-DATA-001 | 0.1 | Proposed | Pending | Not Reviewed | `standards/KE-DATA-001-data-governance-and-quality-standard.md` |
-| KE-AI-001 | 0.1 | Proposed | Pending | Not Reviewed | `standards/KE-AI-001-ai-engineering-and-assurance-standard.md` |
-| KE-RPT-007 | N/A | Review Required | Not Applicable | Pass with Conditions | `docs/verification/KE-RPT-007-horizontal-controls-audit.md` |

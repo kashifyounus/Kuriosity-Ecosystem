@@ -19,11 +19,11 @@ The current authority order begins with:
 | Area | Current state |
 |---|---|
 | KE Constitution | Ratified on the KE foundation publication line |
-| KE Founding Charter | Proposed for ratification |
-| KE Operating Model | Proposed for ratification |
-| KE Authority and Responsibility Model | Proposed for ratification |
-| Platform Portfolio and Responsibility Map | Proposed for ratification |
-| KEP migration | Content parity verified; publication and relocation governance remain under review |
+| KE Founding Charter | Ratified; Effective (v1.0) |
+| KE Operating Model | Ratified; Effective (v1.0) |
+| KE Authority and Responsibility Model | Ratified; Effective (v1.0) |
+| Platform Portfolio and Responsibility Map | Ratified; Effective (v1.0) |
+| KEP migration | v1.0.1 relocation release candidate prepared; privacy and merge gates pending |
 | Other platforms | Registered; mandates require ratification |
 | Authoritative default branch | Not yet aligned until the foundation publication package is approved and merged |
 

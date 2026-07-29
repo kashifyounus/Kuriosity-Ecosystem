@@ -14,7 +14,7 @@
 | KEC | Kuriosity Ecosystem Core | `platforms/kec/` | Recognized; mandate pending |
 | KEM | Kuriosity Ecosystem Management | `platforms/kem/` | Recognized; mandate pending |
 | KKP | Kuriosity Knowledge Platform | `platforms/kkp/` | Recognized; mandate pending |
-| KEP | Kuriosity Engineering Platform | `platforms/kep/` | Migrated baseline; KE publication and relocation reconciliation pending |
+| KEP | Kuriosity Engineering Platform | `platforms/kep/` | Admitted founding platform; v1.0.1 relocation candidate prepared, not yet effective |
 | KES | Kuriosity Engineering Services | `platforms/kes/` | Recognized; mandate pending |
 | KDS | Kuriosity Developer Services | `platforms/kds/` | Recognized; mandate pending |
 | KTP | Kuriosity Testing Platform | `platforms/ktp/` | Recognized; mandate pending |
@@ -23,5 +23,5 @@
 | KOP | Kuriosity Operations Platform | `platforms/kop/` | Recognized; mandate pending |
 | KAS | Kuriosity AI Services | `platforms/kas/` | Recognized; mandate pending |
 
-Recognition does not equal admission, release, or product adoptability. KE-004 governs the proposed portfolio boundary and admission requirements once ratified.
+Recognition does not equal admission, release, or product adoptability. KE-004 governs the ratified portfolio boundary and admission requirements. Recognition remains distinct from admission.
 

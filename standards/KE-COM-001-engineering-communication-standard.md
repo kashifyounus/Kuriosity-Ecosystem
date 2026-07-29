@@ -2,11 +2,19 @@
 
 | Field | Value |
 |---|---|
+| Identifier | KE-COM-001 |
+| Title | Engineering Communication Standard |
+| Artifact Type | Standard |
 | Version | 1.0 |
-| Status | Effective |
+| Lifecycle Status | Effective |
+| Approval Status | Approved |
+| Verification Status | Pass |
 | Authority | KE-005 and KE-REV-001 |
 | Owner | Ecosystem Engineering Authority |
 | Effective Date | 2026-07-29 |
+| Scope | Truthful, evidence-based, decision-focused engineering communication |
+| Amendment Path | KE-007 |
+| Supersession State | Current; supersedes none |
 
 ## 1. Principles
 

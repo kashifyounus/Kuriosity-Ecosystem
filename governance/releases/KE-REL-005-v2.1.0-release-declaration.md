@@ -6,15 +6,15 @@
 | Title | KE v2.1.0 Horizontal Controls Release Declaration |
 | Artifact Type | Release Declaration |
 | Version | 2.1.0 |
-| Lifecycle Status | Proposed |
+| Lifecycle Status | Effective |
 | Approval Status | Approved |
 | Verification Status | Pass |
 | Authority | KE-007 and KE-APR-004 |
 | Owner | Release Authority |
-| Effective Date | Pending publication |
+| Effective Date | 2026-07-30 |
 | Scope | Compatible KE v2.1.0 horizontal engineering controls |
 | Amendment Path | KE-007 |
-| Supersession State | Candidate; supersedes KE v2.0.0 upon effectiveness |
+| Supersession State | Current; supersedes KE v2.0.0 |
 
 ## Release Purpose
 
@@ -39,4 +39,4 @@ This release does not admit any recognized platform, establish platform mandates
 
 ## Effectiveness Gate
 
-The candidate is not Effective. Publication requires explicit Product Owner authorization, merge of the exact verified head to `main`, and successful post-merge verification.
+KE v2.1.0 is Effective. Product Owner authorization, exact-head merge through PR #8, and successful post-merge verification are recorded in KE-RPT-008.

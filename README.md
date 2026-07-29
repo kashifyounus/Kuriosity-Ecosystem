@@ -17,7 +17,7 @@ The authority order begins with:
 
 ## Current Release
 
-KE v2.0.0 is the Effective corrective major release. It preserves the KE-only authority established by v1.1.0 while correcting semantic release classification, normalizing metadata, adding repository enforcement, and establishing architecture-description governance.
+KE v2.1.0 is the Effective horizontal-controls release. It preserves the KE-only corrective foundation of v2.0.0 and adds approved, technology-neutral security, data, AI, and release-engineering standards.
 
 | Area | Authority |
 |---|---|
@@ -25,17 +25,14 @@ KE v2.0.0 is the Effective corrective major release. It preserves the KE-only au
 | Engineering governance | KE-005 |
 | Repository and artifact governance | KE-006 v1.1 |
 | Change, release, conformance, and deviation | KE-007 v1.1 |
-| Artifact metadata and lifecycle | KE-GOV-001 v2.0 |
+| Artifact metadata and lifecycle | KE-GOV-001 v2.1 |
 | Architecture description and review | KE-ARCH-001 v1.0 |
+| Horizontal controls | KE-SEC-001, KE-DATA-001, KE-AI-001, KE-RLS-001 |
 | Other operational standards | KE-PO-001, KE-REV-001, KE-COM-001 |
-| Current effective release | KE v2.0.0 |
-| Superseded release | KE v1.1.0 |
+| Current effective release | KE v2.1.0 |
+| Superseded releases | KE v2.0.0 and KE v1.1.0 |
 
 KE directly owns reusable engineering governance. No separate engineering platform or external engineering-governance repository is required.
-
-## Proposed Release
-
-KE v2.1.0 is an approved but non-effective release candidate on PR #8. It adds KE-SEC-001, KE-DATA-001, KE-AI-001, and KE-RLS-001; clarifies KE-GOV-001 Version 2.1; preserves `KE-REL-*` for release records; and establishes `KE-RLS-*` for release engineering standards. KE v2.0.0 remains the current Effective release until candidate publication and post-merge verification pass.
 
 ## Repository Map
 

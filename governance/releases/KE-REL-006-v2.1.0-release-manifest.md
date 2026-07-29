@@ -6,23 +6,24 @@
 | Title | KE v2.1.0 Release Manifest |
 | Artifact Type | Release Manifest |
 | Version | 2.1.0 |
-| Lifecycle Status | Proposed |
+| Lifecycle Status | Effective |
 | Approval Status | Approved |
 | Verification Status | Pass |
 | Authority | KE-007, KE-APR-004, and KE-REL-005 |
 | Owner | Release Authority |
-| Effective Date | Pending publication |
-| Scope | Exact proposed KE v2.1.0 normative inventory |
+| Effective Date | 2026-07-30 |
+| Scope | Exact effective KE v2.1.0 normative inventory |
 | Amendment Path | KE-007 |
-| Supersession State | Candidate; supersedes KE-REL-004 upon KE v2.1.0 effectiveness |
+| Supersession State | Current; supersedes KE-REL-004 |
 
 ## Canonical Coordinates
 
 - Repository: `kashifyounus/Kuriosity-Ecosystem`
-- Authoritative branch after publication: `main`
-- Candidate branch: `agent/ke-horizontal-controls-audit`
+- Authoritative branch: `main`
+- Publication branch: `agent/ke-horizontal-controls-audit`
 - Publication PR: `#8`
-- Candidate identity: current head of PR #8; exact immutable SHA recorded in the publication handoff and reverified before merge
+- Verified candidate SHA: `49799bdc40d27c7a2bdea54681d2c14978437f6f`
+- Publication merge SHA: `4f9ceb68c7b8614d65257d7670c91bb096e1686f`
 
 ## Normative Inventory
 

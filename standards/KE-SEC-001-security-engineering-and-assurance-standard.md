@@ -6,19 +6,19 @@
 | Title | Security Engineering and Assurance Standard |
 | Artifact Type | Standard |
 | Version | 1.0 |
-| Lifecycle Status | Proposed |
+| Lifecycle Status | Effective |
 | Approval Status | Approved |
 | Verification Status | Pass |
 | Authority | KE-005, KE-007, KE-REV-001, and KE-ARCH-001 |
 | Owner | Ecosystem Security Authority |
-| Effective Date | Pending publication |
+| Effective Date | 2026-07-30 |
 | Scope | Risk-scaled security engineering and assurance for KE, admitted platforms, and conforming products |
 | Amendment Path | KE-007 |
-| Supersession State | Candidate for KE v2.1.0; supersedes none |
+| Supersession State | Current; supersedes none |
 
 ## 1. Purpose
 
-This proposed standard defines minimum technology-neutral security outcomes. It adapts NIST Cybersecurity Framework 2.0 and NIST SP 800-218 secure-development outcomes and references OWASP verification standards without importing framework-specific bureaucracy.
+This standard defines minimum technology-neutral security outcomes. It adapts NIST Cybersecurity Framework 2.0 and NIST SP 800-218 secure-development outcomes and references OWASP verification standards without importing framework-specific bureaucracy.
 
 ## 2. Governing Outcomes
 
@@ -76,4 +76,4 @@ A mandatory security failure shall block release unless higher authority records
 
 ## 10. Approval and Publication Gate
 
-Version 1.0 was approved by the Product Owner on 2026-07-30 through KE-APR-004 and verified for candidate publication through KE-RPT-008. This artifact remains non-effective until the KE v2.1.0 package is merged to `main` and post-merge verification passes.
+Version 1.0 was approved by the Product Owner on 2026-07-30 through KE-APR-004 and verified for candidate publication through KE-RPT-008. This artifact became Effective with KE v2.1.0 publication and successful post-merge verification recorded in KE-RPT-008.

@@ -6,19 +6,19 @@
 | Title | AI Engineering and Assurance Standard |
 | Artifact Type | Standard |
 | Version | 1.0 |
-| Lifecycle Status | Proposed |
+| Lifecycle Status | Effective |
 | Approval Status | Approved |
 | Verification Status | Pass |
 | Authority | KE-003, KE-005, KE-007, KE-REV-001, and KE-ARCH-001 |
 | Owner | Ecosystem AI Engineering Authority |
-| Effective Date | Pending publication |
+| Effective Date | 2026-07-30 |
 | Scope | Engineering use, integration, evaluation, operation, and oversight of AI in KE, admitted platforms, and conforming products |
 | Amendment Path | KE-007 |
-| Supersession State | Candidate for KE v2.1.0; supersedes none |
+| Supersession State | Current; supersedes none |
 
 ## 1. Purpose
 
-This proposed standard operationalizes KE-005 AI principles. It adapts NIST AI RMF functions and trustworthy-AI characteristics while preserving human authority, product boundaries, technology neutrality, and risk-scaled evidence.
+This standard operationalizes KE-005 AI principles. It adapts NIST AI RMF functions and trustworthy-AI characteristics while preserving human authority, product boundaries, technology neutrality, and risk-scaled evidence.
 
 ## 2. AI Role and Authority
 
@@ -84,4 +84,4 @@ Affected stakeholders shall receive information appropriate to risk about AI inv
 
 ## 11. Approval and Publication Gate
 
-Version 1.0 was approved by the Product Owner on 2026-07-30 through KE-APR-004 and verified for candidate publication through KE-RPT-008. This artifact remains non-effective until the KE v2.1.0 package is merged to `main` and post-merge verification passes.
+Version 1.0 was approved by the Product Owner on 2026-07-30 through KE-APR-004 and verified for candidate publication through KE-RPT-008. This artifact became Effective with KE v2.1.0 publication and successful post-merge verification recorded in KE-RPT-008.

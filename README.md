@@ -15,9 +15,9 @@ The authority order begins with:
 5. approved KE standards and architecture decisions; and
 6. approved platform and product governance within their declared boundaries.
 
-## Corrective Release Candidate
+## Current Release
 
-KE v2.0.0 is the approved corrective major-release candidate. It preserves the KE-only authority established by v1.1.0 while correcting semantic release classification, normalizing metadata, adding repository enforcement, and establishing architecture-description governance.
+KE v2.0.0 is the Effective corrective major release. It preserves the KE-only authority established by v1.1.0 while correcting semantic release classification, normalizing metadata, adding repository enforcement, and establishing architecture-description governance.
 
 | Area | Authority |
 |---|---|
@@ -28,10 +28,10 @@ KE v2.0.0 is the approved corrective major-release candidate. It preserves the K
 | Artifact metadata and lifecycle | KE-GOV-001 v2.0 |
 | Architecture description and review | KE-ARCH-001 v1.0 |
 | Other operational standards | KE-PO-001, KE-REV-001, KE-COM-001 |
-| Effective release pending publication | KE v1.1.0 |
-| Approved candidate | KE v2.0.0 |
+| Current effective release | KE v2.0.0 |
+| Superseded release | KE v1.1.0 |
 
-KE v2.0.0 remains non-effective until verified merge to `main` and post-merge verification. KE directly owns reusable engineering governance. No separate engineering platform or external engineering-governance repository is required.
+KE directly owns reusable engineering governance. No separate engineering platform or external engineering-governance repository is required.
 
 ## Repository Map
 

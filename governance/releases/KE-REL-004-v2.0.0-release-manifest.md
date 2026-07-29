@@ -6,21 +6,22 @@
 | Title | KE v2.0.0 Release Manifest |
 | Artifact Type | Release Manifest |
 | Version | 2.0.0 |
-| Lifecycle Status | Proposed |
+| Lifecycle Status | Effective |
 | Approval Status | Approved |
-| Verification Status | Pass with Conditions |
+| Verification Status | Pass |
 | Authority | KE-007, KE-APR-003, and KE-REL-003 |
 | Owner | Release Authority |
-| Effective Date | Pending verified merge to `main` |
-| Scope | Exact KE v2.0.0 candidate inventory and publication coordinates |
+| Effective Date | 2026-07-29 |
+| Scope | Exact effective KE v2.0.0 inventory and publication coordinates |
 | Amendment Path | KE-007 |
-| Supersession State | Candidate to supersede KE-REL-002 |
+| Supersession State | Supersedes KE-REL-002 as the current release manifest |
 
 ## Canonical Coordinates
 
 - Repository: `kashifyounus/Kuriosity-Ecosystem`
 - Authoritative branch: `main`
-- Candidate branch: `agent/ke-benchmark-repository-audit`
+- Publication PR: `#6`
+- Verified publication merge: `de0615c4221ca78e8db1cd4a5438f508fd80984c`
 
 ## Normative Inventory
 
@@ -61,4 +62,4 @@
 
 ## Limitations
 
-All recognized platforms remain non-adoptable until admitted through approved mandates and evidence. This candidate does not claim completion of deferred operational standards.
+All recognized platforms remain non-adoptable until admitted through approved mandates and evidence. This release does not claim completion of deferred operational standards.

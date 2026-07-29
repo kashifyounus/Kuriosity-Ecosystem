@@ -5,16 +5,16 @@
 | Identifier | KE-SEC-001 |
 | Title | Security Engineering and Assurance Standard |
 | Artifact Type | Standard |
-| Version | 0.1 |
+| Version | 1.0 |
 | Lifecycle Status | Proposed |
-| Approval Status | Pending |
-| Verification Status | Not Reviewed |
+| Approval Status | Approved |
+| Verification Status | Pass |
 | Authority | KE-005, KE-007, KE-REV-001, and KE-ARCH-001 |
 | Owner | Ecosystem Security Authority |
-| Effective Date | Pending |
+| Effective Date | Pending publication |
 | Scope | Risk-scaled security engineering and assurance for KE, admitted platforms, and conforming products |
 | Amendment Path | KE-007 |
-| Supersession State | Proposed; supersedes none |
+| Supersession State | Candidate for KE v2.1.0; supersedes none |
 
 ## 1. Purpose
 
@@ -74,6 +74,6 @@ A mandatory security failure shall block release unless higher authority records
 - **Reference:** SLSA for software supply-chain provenance and integrity maturity.
 - **Reject:** universal control catalogs, fixed tools, or certification claims without verified scope and evidence.
 
-## 10. Approval Gate
+## 10. Approval and Publication Gate
 
-This artifact is non-normative while Proposed. Effectiveness requires review under KE-REV-001, Product Owner approval, manifest inclusion, publication, and post-merge verification.
+Version 1.0 was approved by the Product Owner on 2026-07-30 through KE-APR-004 and verified for candidate publication through KE-RPT-008. This artifact remains non-effective until the KE v2.1.0 package is merged to `main` and post-merge verification passes.

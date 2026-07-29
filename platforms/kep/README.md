@@ -10,6 +10,8 @@ credentials, environment files, or database dumps.
 
 ## Official governance baseline
 
+KEP Framework v1.0.1 is an approved relocation release candidate. It becomes effective only after the KE alignment package is published to `main`, both founding repositories are verified private, and post-merge verification passes. Until then, v1.0.0 remains the effective product-adoptable release.
+
 The first official product-adoptable governance baseline is **KEP Framework
 v1.0.0**.
 
@@ -74,3 +76,11 @@ evidence.
 Read `AGENTS.md` before changing the repository. Keep governance and knowledge
 artifacts platform-level, auditable, and free of product- or consumer-sensitive
 material.
+
+## v1.0.1 relocation candidate
+
+- Release declaration: `docs/00-governance/releases/KEP-v1.0.1-release-declaration.md`
+- Authoritative manifest candidate: `docs/00-governance/releases/KEP-v1.0.1-release-manifest.md`
+- Relocation verification: `docs/00-governance/verification/KEP-v1.0.1-relocation-verification.md`
+- SNS_GATEWAY secondary validation: `docs/00-governance/verification/KEP-v1.0.1-SNS_GATEWAY-secondary-context-validation.md`
+- Upgrade and rollback guidance: `docs/00-governance/releases/KEP-v1.0.1-upgrade-and-rollback-guidance.md`

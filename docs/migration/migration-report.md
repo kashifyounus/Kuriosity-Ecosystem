@@ -10,7 +10,7 @@ The complete tracked contents of source `main` at commit `06a2dfec4ae573b17417e5
 - Preserved the complete source directory hierarchy under `platforms/kep/`.
 - Created the approved ecosystem root and platform directory structure.
 - Preserved filenames, binary DOCX renditions, Markdown documents, governance artifacts, placeholders, and repository guidance.
-- Made only five required canonical-repository coordinate corrections across four migrated Markdown files.
+- Preserved the historical KEP v1.0.0 repository coordinates. Five initially proposed coordinate edits were reversed after release-governance review; relocation is governed through the proposed v1.0.1 successor-release plan.
 
 ## History
 

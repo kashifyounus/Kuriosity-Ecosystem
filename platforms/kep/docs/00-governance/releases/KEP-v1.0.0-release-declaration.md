@@ -9,7 +9,7 @@
 | Publication Date | July 25, 2026 |
 | Publication Authority | Founding Authority |
 | Authoritative Manifest | `docs/00-governance/releases/KEP-v1.0.0-release-manifest.md` |
-| Canonical Repository | `kashifyounus/Kuriosity-Ecosystem` (`platforms/kep/`) |
+| Canonical Repository | `kashifyounus/kuriosity-engineering-platform` |
 | Authoritative Branch | `main` |
 | Supersedes | No prior official KEP Framework release |
 

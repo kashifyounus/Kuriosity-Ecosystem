@@ -37,15 +37,15 @@ Three unblocked proposed standards are prepared: KE-SEC-001, KE-DATA-001, and KE
 
 | Source | Evidence used | KE position | Classification |
 |---|---|---|---|
-| GitHub rulesets and protected branches | Pull-request gates, required status checks, branch update and bypass controls | Require PR publication, successful KE validation, blocked force-push/deletion, and explicit bypass governance; verify administratively | Adopt |
-| NIST Cybersecurity Framework 2.0 | Govern, Identify, Protect, Detect, Respond, Recover outcomes | Use as outcome taxonomy without copying its complete catalog | Adapt |
-| NIST SP 800-218 SSDF | Secure practices integrated into any SDLC | Use risk-scaled secure-engineering lifecycle outcomes | Adopt |
-| OWASP ASVS 5.0 | Verifiable application-security requirements | Allow as product-selected evidence; do not impose on non-application platforms | Reference |
-| ISO 8000 | Data-quality principles, roles, responsibilities, and evidence | Use explicit accountability and measurable fitness-for-use outcomes | Adapt |
-| NIST Privacy Framework | Privacy-risk identification and management | Integrate into data governance without making legal conclusions | Adapt |
-| NIST AI RMF 1.0 | Govern, Map, Measure, Manage and trustworthy-AI characteristics | Use as AI risk lifecycle; preserve KE authority and review rules | Adapt |
-| NIST AI RMF Generative AI Profile / SP 800-218A | Generative and dual-use AI risks and secure-development practices | Apply only where relevant | Reference |
-| SLSA 1.2 | Incremental source/build provenance and integrity levels | Use provenance concepts as risk-scaled evidence; do not mandate one universal level | Adapt |
+| [GitHub rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets) and [protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) | Pull-request gates, required status checks, branch update and bypass controls | Require PR publication, successful KE validation, blocked force-push/deletion, and explicit bypass governance; verify administratively | Adopt |
+| [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) | Govern, Identify, Protect, Detect, Respond, Recover outcomes | Use as outcome taxonomy without copying its complete catalog | Adapt |
+| [NIST SP 800-218 SSDF](https://csrc.nist.gov/pubs/sp/800/218/final) | Secure practices integrated into any SDLC | Use risk-scaled secure-engineering lifecycle outcomes | Adopt |
+| [OWASP ASVS 5.0](https://owasp.org/www-project-application-security-verification-standard/) | Verifiable application-security requirements | Allow as product-selected evidence; do not impose on non-application platforms | Reference |
+| [ISO 8000-1:2022](https://www.iso.org/standard/81745.html) and [ISO 8000-150:2022](https://www.iso.org/standard/80753.html) | Data-quality principles, roles, responsibilities, and evidence | Use explicit accountability and measurable fitness-for-use outcomes | Adapt |
+| [NIST Privacy Framework](https://www.nist.gov/privacy-framework) | Privacy-risk identification and management | Integrate into data governance without making legal conclusions | Adapt |
+| [NIST AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework) | Govern, Map, Measure, Manage and trustworthy-AI characteristics | Use as AI risk lifecycle; preserve KE authority and review rules | Adapt |
+| [NIST AI RMF Generative AI Profile](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence) / [SP 800-218A](https://csrc.nist.gov/pubs/sp/800/218/a/final) | Generative and dual-use AI risks and secure-development practices | Apply only where relevant | Reference |
+| [SLSA 1.2](https://slsa.dev/spec/v1.2/) | Incremental source/build provenance and integrity levels | Use provenance concepts as risk-scaled evidence; do not mandate one universal level | Adapt |
 
 ## 4. Gap Analysis
 

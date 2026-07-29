@@ -5,154 +5,80 @@
 | Field | Value |
 |---|---|
 | Identifier | KE-002 |
-| Title | Kuriosity Ecosystem Operating Model |
-| Version | 1.0 |
+| Version | 1.1 |
 | Status | Ratified; Effective |
-| Authority Level | Foundational operating governance; subordinate to KE-000 and KE-001 |
+| Authority | KE-000 and KE-001 |
 | Owner | Kuriosity Ecosystem Founding Authority |
 | Effective Date | 2026-07-29 |
-| Applies To | KE governance, admitted platforms, and products claiming KE adoption |
+| Supersedes | KE-002 Version 1.0 |
 
 ## 1. Purpose
 
-This Operating Model defines how KE authority is exercised across the ecosystem, platforms, and adopting products.
-
-It does not define platform-specific capabilities, product-domain behavior, technology choices, or implementation procedures.
+This model defines how KE governs engineering, platforms, repositories, and product conformance without assuming product-domain authority.
 
 ## 2. Operating Units
 
 KE operates through:
 
-- the ecosystem authority, which governs shared ecosystem concerns;
-- platform authorities, which govern reusable capabilities within ratified mandates;
-- product authorities, which govern product business domains and product lifecycle;
-- verification authorities, which evaluate evidence without assuming approval authority; and
-- repository maintainers, who preserve approved records without creating governing authority through publication mechanics.
+- Ecosystem Authority — constitutional, portfolio, cross-platform, and ecosystem-wide engineering authority;
+- Platform Authorities — reusable capability authority within ratified mandates;
+- Product Authorities — business-domain and product-lifecycle authority;
+- Verification Authorities — evidence evaluation without implied approval authority; and
+- Repository Maintainers — preservation and publication of approved records.
 
-Roles and accountability are defined in KE-003.
+## 3. Engineering Lifecycle
 
-## 3. Ecosystem Lifecycle
+Every material product or platform change shall follow the applicable parts of this sequence:
 
-### 3.1 Establish
+1. establish intent, authority, scope, and expected outcome;
+2. define and approve requirements and constraints;
+3. model the domain and ownership boundaries;
+4. select architecture from requirements and quality attributes;
+5. define data, security, interface, failure, and operational contracts;
+6. plan implementation and migration;
+7. implement within approved boundaries;
+8. verify requirements, architecture, quality, security, and operations;
+9. obtain risk-appropriate approval;
+10. release with evidence and rollback or recovery provisions;
+11. operate with ownership and observability; and
+12. learn and evolve through controlled change.
 
-Foundational KE authority is proposed, reviewed, ratified, recorded, and published through explicit human approval.
+Implementation shall not silently settle an unresolved requirement, authority question, architecture decision, or governance matter.
 
-### 3.2 Admit a Platform
+## 4. Platform Lifecycle
 
-A platform may enter the KE portfolio only when its identity, purpose, mandate, exclusions, accountable owner, dependencies, lifecycle state, and relationship to products are documented and approved.
+A platform moves through `Proposed`, `Recognized`, `Admitted`, `Active`, `Deprecated`, `Retired`, and `Archived` states.
 
-Directory creation, implementation, repeated use, or naming convention does not admit a platform.
+Admission requires an approved identity, purpose, mandate, exclusions, owner, dependencies, adoption relationship, version model, evidence requirements, and effective date.
 
-### 3.3 Govern a Platform
+Retirement requires an impact assessment, replacement or absorption decision, consumer migration plan, evidence preservation, dependency verification, approval, and final state record.
 
-Each admitted platform shall maintain:
+## 5. Product Conformance
 
-- a bounded mandate;
-- an accountable platform owner;
-- approved governance and architecture appropriate to its scope;
-- a versioned release and change model;
-- adoption coordinates;
-- evidence of verification; and
-- explicit dependency and deviation rules.
+A product claims KE conformance through a repository-controlled record identifying:
 
-### 3.4 Adopt a Platform
-
-A product adopts a platform through a repository-controlled adoption record that identifies:
-
-- the platform and adopted release;
-- the adopted standards or capabilities;
+- the KE release and applicable standards;
 - product-owned extensions;
-- approved deviations;
+- platform releases adopted, if any;
+- approved deviations and compensating controls;
+- evidence and verification state;
 - upgrade and rollback policy; and
 - adoption history.
 
-Adoption does not transfer product-domain authority to the platform.
+KE conformance does not transfer product-domain ownership to KE.
 
-### 3.5 Change
+## 6. Change and Release
 
-A proposed change shall be classified by the highest authority it affects. Changes shall be reviewed and approved by the competent authority before they are represented as effective.
+Changes shall be classified by the highest authority affected and by risk. Breaking changes require explicit impact analysis, migration guidance, approval, and versioning. Release claims require durable evidence and shall never be inferred from implementation completion.
 
-Lower-level artifacts shall not amend higher authority.
+## 7. Exceptions
 
-### 3.6 Verify
+An exception shall identify the rule, reason, scope, risk, compensating controls, owner, approver, effective period, review or expiry, and exit condition. An undocumented deviation is nonconformance.
 
-Claims of conformance, readiness, completion, adoption, release, or migration shall be supported by durable evidence against explicit acceptance criteria.
+## 8. Automation and AI
 
-Verification records report evidence and outcome. They do not independently ratify authority.
+Automation and AI may analyze, draft, implement, test, review, and operate within assigned boundaries. They shall not fabricate access or evidence, create governing authority, approve material decisions, or replace accountable human judgment.
 
-### 3.7 Release
+## 9. Ratification
 
-A KE or platform release shall have:
-
-- a unique versioned identity;
-- an authoritative manifest;
-- an explicit normative inventory;
-- approval evidence;
-- adoption coordinates;
-- exclusions and known limitations; and
-- a declared effective state.
-
-Historical release manifests shall remain immutable in meaning. A changed inventory, lifecycle state, or adoption coordinate requires a controlled successor release.
-
-### 3.8 Retire
-
-Retirement requires impact analysis, dependent-product review, preservation of historical authority and evidence, transition or rollback guidance, and approval by the competent authority.
-
-Deletion is not equivalent to retirement.
-
-## 4. Decision Flow
-
-Every material KE decision shall:
-
-1. identify the governing authority and scope;
-2. state the problem, evidence, and constraints;
-3. check whether an existing concept can be extended;
-4. assess affected ecosystem, platform, and product boundaries;
-5. record alternatives and consequences proportionate to risk;
-6. receive explicit approval from the competent human authority;
-7. update the canonical repository artifacts; and
-8. produce verification evidence before release claims are made.
-
-## 5. Conflict and Escalation
-
-Conflicts are resolved using the KE-000 authority hierarchy.
-
-An unresolved conflict shall be escalated to the next superior competent authority. It shall not be resolved by implementation preference, repository mechanics, automation, or silence.
-
-## 6. Cross-Platform Coordination
-
-A cross-platform dependency shall identify:
-
-- the owning platform for each capability;
-- the consuming platform or product;
-- the governing contract or adoption record;
-- compatibility and change obligations;
-- failure and rollback boundaries; and
-- the authority responsible for resolving conflict.
-
-Shared use shall not create ambiguous ownership.
-
-## 7. Repository Operating Boundary
-
-The repository is the durable publication and evidence mechanism for KE. It does not replace ratification, approval, accountability, or governance review.
-
-Changes shall be prepared on controlled branches, reviewed against higher authority, and merged to the authoritative branch only after approval and verification.
-
-## 8. Operating Reviews
-
-KE shall perform:
-
-- immediate review upon a material constitutional, legal, contractual, security, ownership, or platform-boundary change;
-- release review before any KE or platform release becomes effective;
-- periodic governance review at the cadence established by approved KE policy; and
-- post-change verification when repository publication or migration changes authoritative coordinates.
-
-## 9. Ratification Record
-
-| Field | Value |
-|---|---|
-| Ratified By | Kuriosity Ecosystem Founding Authority |
-| Authority | Kuriosity Ecosystem Founding Authority |
-| Effective Date | 2026-07-29 |
-| Approval Record | `governance/approvals/KE-foundation-v1.0-ratification-and-relocation-approval-record.md` |
-
+Version 1.1 is ratified on 2026-07-29 through `governance/approvals/KE-APR-002-ke-only-authority-and-retirement-approval.md`.

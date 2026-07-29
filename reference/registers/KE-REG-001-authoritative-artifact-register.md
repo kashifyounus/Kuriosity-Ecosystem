@@ -1,65 +1,46 @@
 # KE-REG-001 — Authoritative Artifact Register
 
-## Control
-
 | Field | Value |
 |---|---|
-| Artifact Class | Reference register; non-normative |
 | Status | Active |
 | Date | 2026-07-29 |
-| Owner | Kuriosity Ecosystem Repository Maintainer |
+| Owner | KE Repository Maintainer |
+| Classification | Reference; non-normative |
 
-This register reports repository state. It does not grant authority.
+## Foundation and Governance
 
-## KE Foundation
-
-| Identifier | Artifact | Version | Lifecycle state | Canonical path |
+| ID | Artifact | Version | State | Path |
 |---|---|---:|---|---|
-| KE-000 | Kuriosity Ecosystem Constitution | 1.0 | Ratified; Published | `governance/constitution/KE-000-kuriosity-ecosystem-constitution.md` |
-| KE-001 | Kuriosity Ecosystem Founding Charter | 1.0 | Ratified; Effective; Published | `governance/charter/KE-001-kuriosity-ecosystem-founding-charter.md` |
-| KE-002 | Kuriosity Ecosystem Operating Model | 1.0 | Ratified; Effective; Published | `governance/operating-model/KE-002-kuriosity-ecosystem-operating-model.md` |
-| KE-003 | Ecosystem Authority and Responsibility Model | 1.0 | Ratified; Effective; Published | `governance/authority/KE-003-ecosystem-authority-and-responsibility-model.md` |
-| KE-004 | Platform Portfolio and Responsibility Map | 1.0 | Ratified; Effective; Published | `governance/platforms/KE-004-platform-portfolio-and-responsibility-map.md` |
+| KE-000 | Ecosystem Constitution | 1.0 | Ratified | `governance/constitution/KE-000-kuriosity-ecosystem-constitution.md` |
+| KE-001 | Founding Charter | 1.1 | Ratified; Effective | `governance/charter/KE-001-kuriosity-ecosystem-founding-charter.md` |
+| KE-002 | Operating Model | 1.1 | Ratified; Effective | `governance/operating-model/KE-002-kuriosity-ecosystem-operating-model.md` |
+| KE-003 | Authority and Responsibility Model | 1.0 | Ratified; Effective | `governance/authority/KE-003-ecosystem-authority-and-responsibility-model.md` |
+| KE-004 | Platform Portfolio and Responsibility Map | 1.1 | Ratified; Effective | `governance/platforms/KE-004-platform-portfolio-and-responsibility-map.md` |
+| KE-005 | Engineering Governance Framework | 1.0 | Ratified; Effective | `governance/engineering/KE-005-engineering-governance-framework.md` |
+| KE-006 | Repository and Artifact Governance | 1.0 | Approved; Effective | `governance/repository/KE-006-repository-and-artifact-governance.md` |
+| KE-007 | Change, Release, Conformance, and Deviation Governance | 1.0 | Approved; Effective | `governance/change/KE-007-change-release-conformance-and-deviation-governance.md` |
 
-## Planning and Verification
+## Standards
 
-| Identifier | Artifact | Lifecycle state | Canonical path |
-|---|---|---|---|
-| KE-PLAN-001 | Repository Source-of-Truth Alignment Plan | Completed; non-normative | `docs/planning/KE-PLAN-001-repository-source-of-truth-alignment-plan.md` |
-| KE-RPT-001 | Repository Alignment Baseline Verification | Final; non-normative | `docs/verification/KE-RPT-001-repository-alignment-baseline-verification.md` |
-| KE-RPT-002 | Final Merge Readiness Report | Final; non-normative | `docs/verification/KE-RPT-002-final-merge-readiness.md` |
-| KE-RPT-003 | Migration Post-Merge Verification | Final; Pass; non-normative | `docs/verification/KE-RPT-003-migration-post-merge-verification.md` |
-| KE-REG-001 | Authoritative Artifact Register | Active; non-normative | `reference/registers/KE-REG-001-authoritative-artifact-register.md` |
-| KE-REG-002 | Platform Portfolio Register | Active; non-normative | `reference/registers/KE-REG-002-platform-portfolio-register.md` |
-
-## KEP Baseline
-
-The authoritative KEP normative inventory is defined by the applicable KEP release manifest, not by this register.
-
-| Release | State in KE repository | Determination |
+| ID | State | Path |
 |---|---|---|
-| KEP v1.0.0 | Migrated copy with historical coordinates preserved | Published and effective historical release; standalone repository remains canonical for v1.0.0 |
-| KEP v1.0.1 | Relocation release candidate published to `main` | Not effective or product-adoptable until founding-repository privacy is verified and controlled promotion completes |
+| KE-GOV-001 | Effective | `standards/KE-GOV-001-artifact-taxonomy-naming-and-lifecycle-standard.md` |
+| KE-PO-001 | Effective | `standards/KE-PO-001-product-owner-interaction-standard.md` |
+| KE-REV-001 | Effective | `standards/KE-REV-001-engineering-review-standard.md` |
+| KE-COM-001 | Effective | `standards/KE-COM-001-engineering-communication-standard.md` |
 
-## Approval and Release Records
+## Decisions, Approvals, Release, and Evidence
 
-| Artifact | Lifecycle state | Canonical path |
+| ID | State | Path |
 |---|---|---|
-| KE Foundation v1.0 Ratification and KEP Relocation Approval | Final; Approved | `governance/approvals/KE-foundation-v1.0-ratification-and-relocation-approval-record.md` |
-| KE-EXC-001 Temporary Repository Visibility Exception | Approved; temporary | `governance/approvals/KE-EXC-001-temporary-repository-visibility-exception.md` |
-| KEP v1.0.1 Release Declaration | Approved Release Candidate | `platforms/kep/docs/00-governance/releases/KEP-v1.0.1-release-declaration.md` |
-| KEP v1.0.1 Release Manifest | Approved Release Candidate | `platforms/kep/docs/00-governance/releases/KEP-v1.0.1-release-manifest.md` |
-| SNS_GATEWAY Secondary Validation | Final; Pass | `platforms/kep/docs/00-governance/verification/KEP-v1.0.1-SNS_GATEWAY-secondary-context-validation.md` |
+| KE-ADR-001 | Accepted | `adr/KE-ADR-001-retire-separate-engineering-platform.md` |
+| KE-APR-001 | Final | `governance/approvals/KE-APR-001-foundation-v1.0-ratification-record.md` |
+| KE-APR-002 | Final; Approved | `governance/approvals/KE-APR-002-ke-only-authority-and-retirement-approval.md` |
+| KE-REL-001 | Effective | `governance/releases/KE-REL-001-v1.1.0-release-declaration.md` |
+| KE-REL-002 | Effective | `governance/releases/KE-REL-002-v1.1.0-release-manifest.md` |
+| KE-RPT-004 | Final; Pass | `docs/verification/KE-RPT-004-ke-only-zero-dependency-verification.md` |
+| KE-HIST-001 | Historical; non-normative | `reference/history/KE-HIST-001-engineering-platform-retirement-record.md` |
+| KE-REG-002 | Active | `reference/registers/KE-REG-002-platform-portfolio-register.md` |
+| KE-TERM-001 | Active | `reference/terminology/KE-TERM-001-canonical-terminology.md` |
 
-## Missing or Pending Authorities
-
-- KE repository governance standard;
-- KE artifact taxonomy and naming standard;
-- KE change and release governance;
-- KE platform admission and retirement policy;
-- KE product adoption and deviation standard;
-- KE terminology register;
-- KE architecture decision register;
-- KE release declaration and manifest;
-- KE v1.0 verification record; and
-- ratified mandates for KEC, KEM, KKP, KES, KDS, KTP, KSP, KDP, KOP, and KAS.
+No active artifact is maintained outside this repository.

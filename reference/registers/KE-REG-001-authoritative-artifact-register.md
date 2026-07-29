@@ -33,7 +33,7 @@
 
 | ID | State | Path |
 |---|---|---|
-| KE-ADR-001 | Accepted | `adr/KE-ADR-001-retire-kep-and-internalize-engineering-governance.md` |
+| KE-ADR-001 | Accepted | `adr/KE-ADR-001-retire-separate-engineering-platform.md` |
 | KE-APR-001 | Final | `governance/approvals/KE-APR-001-foundation-v1.0-ratification-record.md` |
 | KE-APR-002 | Final; Approved | `governance/approvals/KE-APR-002-ke-only-authority-and-retirement-approval.md` |
 | KE-REL-001 | Effective | `governance/releases/KE-REL-001-v1.1.0-release-declaration.md` |

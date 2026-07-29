@@ -6,15 +6,15 @@
 | Title | Artifact Taxonomy, Naming, Metadata, and Lifecycle Standard |
 | Artifact Type | Standard |
 | Version | 2.1 |
-| Lifecycle Status | Proposed |
+| Lifecycle Status | Effective |
 | Approval Status | Approved |
 | Verification Status | Pass |
 | Authority | KE-005 through KE-007 |
 | Owner | Ecosystem Governance Authority |
-| Effective Date | Pending publication |
+| Effective Date | 2026-07-30 |
 | Scope | KE artifact identifiers, canonical metadata, lifecycle, naming, authority, and duplication control |
 | Amendment Path | KE-007 |
-| Supersession State | Candidate; supersedes Version 2.0 upon KE v2.1.0 effectiveness |
+| Supersession State | Current; supersedes Version 2.0 |
 
 ## 1. Identifier Model
 
@@ -79,4 +79,4 @@ One normative topic shall have one canonical source. A new artifact requires evi
 
 ## 7. Approval
 
-Version 2.1 approved by the Product Owner on 2026-07-30 through KE-APR-004. It preserves `KE-REL-*` for historical and future release records and establishes `KE-RLS-*` for normative release engineering standards. Version 2.1 becomes effective only with KE v2.1.0 publication and successful post-merge verification.
+Version 2.1 approved by the Product Owner on 2026-07-30 through KE-APR-004. It preserves `KE-REL-*` for historical and future release records and establishes `KE-RLS-*` for normative release engineering standards. Version 2.1 became Effective with KE v2.1.0 publication and successful post-merge verification recorded in KE-RPT-008.

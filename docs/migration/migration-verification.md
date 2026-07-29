@@ -18,7 +18,7 @@
 - Source and migrated relative file lists are identical.
 - No source file is missing.
 - No additional file exists inside `platforms/kep/`.
-- Four files differ from the source only by the five authorized canonical-repository coordinate corrections documented in `reference-update-report.md`.
+- All migrated KEP source files preserve the source baseline content after reversal of the initially proposed coordinate edits.
 - Binary DOCX files are unchanged.
 - Governance, approvals, registers, releases, reports, reviews, standards, verification artifacts, contracts, playbooks, schemas, skills, templates, tools, and research paths are present.
 - Repeated `.gitkeep` filenames are intentional directory-preservation placeholders, not duplicate documents.

@@ -1,24 +1,24 @@
-# KE-RPT-008 — KE v2.1.0 Candidate Verification
+# KE-RPT-008 — KE v2.1.0 Publication Verification
 
 | Field | Value |
 |---|---|
 | Identifier | KE-RPT-008 |
-| Title | KE v2.1.0 Candidate Verification |
+| Title | KE v2.1.0 Publication Verification |
 | Artifact Type | Verification Report |
 | Version | 1.0 |
-| Lifecycle Status | Review Required |
+| Lifecycle Status | Archived |
 | Approval Status | Not Applicable |
 | Verification Status | Pass |
 | Authority | KE-006, KE-007, KE-REV-001, and KE-APR-004 |
 | Owner | Verification Authority |
-| Effective Date | Not Applicable |
-| Scope | KE v2.1.0 candidate content and publication readiness |
+| Effective Date | 2026-07-30 |
+| Scope | KE v2.1.0 candidate, merge, activation, and publication verification |
 | Amendment Path | Finalize or supersede under KE-REV-001 |
-| Supersession State | Candidate verification; post-merge verification still required |
+| Supersession State | Final publication verification for KE v2.1.0 |
 
 ## Executive Result
 
-The bounded KE v2.1.0 candidate is internally coherent, passed repository-controlled validation, and remains non-effective and unmerged.
+KE v2.1.0 passed candidate and post-merge verification and is Effective on `main`.
 
 ## Verification Matrix
 
@@ -36,11 +36,13 @@ The bounded KE v2.1.0 candidate is internally coherent, passed repository-contro
 | Effective KE v2.0.0 manifest rewritten | Pass; no |
 | Administrative branch-protection compliance claimed | Pass; no |
 | Post-merge effectiveness claimed | Pass; no |
-| Repository validation on candidate content | Pass; run #17 on `800c99812fffcad3c4dc3251758c09b14f0a8c44` |
+| Repository validation on candidate content | Pass; run #19 on `49799bdc40d27c7a2bdea54681d2c14978437f6f` |
+| Product Owner publication authorization | Pass; received 2026-07-30 |
+| Exact verified head merged through PR #8 | Pass; merge `4f9ceb68c7b8614d65257d7670c91bb096e1686f` |
+| Post-merge tree equals verified publication content | Pass |
+| Effective manifest inventory resolves | Pass; 17/17 |
+| KE v2.1.0 activation metadata | Pass |
 
-## Remaining Publication Gates
+## Final Determination
 
-1. final remote-head and manifest parity confirmation at handoff;
-2. explicit Product Owner publication authorization;
-3. normal merge to `main`; and
-4. post-merge verification and activation-only metadata update.
+All KE v2.1.0 publication gates passed. KE-REL-005 and KE-REL-006 are Effective; KE v2.0.0 is Superseded. Administrative branch-protection enforcement remains unverified and is not claimed.

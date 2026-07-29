@@ -6,12 +6,17 @@
 |---|---|
 | Identifier | KE-000 |
 | Title | Kuriosity Ecosystem Constitution |
+| Artifact Type | Constitution |
 | Version | 1.0 |
-| Status | Ratified |
-| Authority Level | Constitutional |
+| Lifecycle Status | Effective |
+| Approval Status | Ratified |
+| Verification Status | Pass |
+| Authority | Applicable law and binding contracts |
 | Owner | Kuriosity Ecosystem Founding Authority |
 | Effective Date | 2026-07-27 |
-| Applies To | The Kuriosity Ecosystem, its governance, platforms, products, capabilities, assets, authorities, and participants |
+| Scope | The Kuriosity Ecosystem, its governance, platforms, products, capabilities, assets, authorities, and participants |
+| Amendment Path | Section 7 — Constitutional Change Process |
+| Supersession State | Current; supersedes none |
 
 ## 1. Purpose
 

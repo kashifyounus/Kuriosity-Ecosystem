@@ -39,6 +39,7 @@
 | KE-REL-001 | Effective | `governance/releases/KE-REL-001-v1.1.0-release-declaration.md` |
 | KE-REL-002 | Effective | `governance/releases/KE-REL-002-v1.1.0-release-manifest.md` |
 | KE-RPT-004 | Final; Pass | `docs/verification/KE-RPT-004-ke-only-zero-dependency-verification.md` |
+| KE-RPT-005 | Final; Advisory Review Only | `docs/verification/KE-RPT-005-benchmark-and-repository-audit.md` |
 | KE-HIST-001 | Historical; non-normative | `reference/history/KE-HIST-001-engineering-platform-retirement-record.md` |
 | KE-REG-002 | Active | `reference/registers/KE-REG-002-platform-portfolio-register.md` |
 | KE-TERM-001 | Active | `reference/terminology/KE-TERM-001-canonical-terminology.md` |

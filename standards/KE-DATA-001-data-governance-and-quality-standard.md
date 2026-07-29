@@ -5,16 +5,16 @@
 | Identifier | KE-DATA-001 |
 | Title | Data Governance and Quality Standard |
 | Artifact Type | Standard |
-| Version | 0.1 |
+| Version | 1.0 |
 | Lifecycle Status | Proposed |
-| Approval Status | Pending |
-| Verification Status | Not Reviewed |
+| Approval Status | Approved |
+| Verification Status | Pass |
 | Authority | KE-005, KE-007, KE-REV-001, and KE-ARCH-001 |
 | Owner | Ecosystem Data Authority |
-| Effective Date | Pending |
+| Effective Date | Pending publication |
 | Scope | Technology-neutral governance of material data used by KE, admitted platforms, and conforming products |
 | Amendment Path | KE-007 |
-| Supersession State | Proposed; supersedes none |
+| Supersession State | Candidate for KE v2.1.0; supersedes none |
 
 ## 1. Purpose
 
@@ -76,6 +76,6 @@ KE defines reusable governance outcomes. A platform may define reusable data cap
 - **Reference:** domain-specific legal, contractual, interoperability, and records-management standards selected by competent authorities.
 - **Reject:** a universal KE enterprise data model, mandatory vendor tooling, or product-domain data definitions.
 
-## 11. Approval Gate
+## 11. Approval and Publication Gate
 
-This artifact is non-normative while Proposed. Effectiveness requires review under KE-REV-001, Product Owner approval, manifest inclusion, publication, and post-merge verification.
+Version 1.0 was approved by the Product Owner on 2026-07-30 through KE-APR-004 and verified for candidate publication through KE-RPT-008. This artifact remains non-effective until the KE v2.1.0 package is merged to `main` and post-merge verification passes.

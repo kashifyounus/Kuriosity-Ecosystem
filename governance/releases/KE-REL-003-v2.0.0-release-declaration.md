@@ -6,15 +6,15 @@
 | Title | KE v2.0.0 Corrective Release Declaration |
 | Artifact Type | Release Declaration |
 | Version | 2.0.0 |
-| Lifecycle Status | Proposed |
+| Lifecycle Status | Effective |
 | Approval Status | Approved |
-| Verification Status | Pass with Conditions |
+| Verification Status | Pass |
 | Authority | KE-007 and KE-APR-003 |
 | Owner | Release Authority |
-| Effective Date | Pending verified merge to `main` |
+| Effective Date | 2026-07-29 |
 | Scope | Corrective KE v2.0.0 foundation baseline |
 | Amendment Path | KE-007 |
-| Supersession State | Candidate to supersede KE v1.1.0 |
+| Supersession State | Supersedes KE v1.1.0 as the current KE release |
 
 ## Release Purpose
 
@@ -41,4 +41,4 @@ Security, data, AI, detailed release evidence, platform mandates, governed templ
 
 ## Effectiveness Gate
 
-This declaration remains Proposed until candidate verification, publication approval, merge to `main`, and post-merge verification pass.
+The effectiveness gate passed on 2026-07-29. PR #6 merged the verified candidate to `main` at `de0615c4221ca78e8db1cd4a5438f508fd80984c`; authoritative-tree verification confirmed manifest parity, metadata integrity, zero content delta from the verified candidate, and no reintroduced retired dependency.

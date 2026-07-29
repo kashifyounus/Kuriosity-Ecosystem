@@ -33,6 +33,10 @@ KE v2.0.0 is the Effective corrective major release. It preserves the KE-only au
 
 KE directly owns reusable engineering governance. No separate engineering platform or external engineering-governance repository is required.
 
+## Proposed Release
+
+KE v2.1.0 is an approved but non-effective release candidate on PR #8. It adds KE-SEC-001, KE-DATA-001, KE-AI-001, and KE-RLS-001; clarifies KE-GOV-001 Version 2.1; preserves `KE-REL-*` for release records; and establishes `KE-RLS-*` for release engineering standards. KE v2.0.0 remains the current Effective release until candidate publication and post-merge verification pass.
+
 ## Repository Map
 
 - `governance/` — constitutional, foundational, authority, policy, approval, and release records.

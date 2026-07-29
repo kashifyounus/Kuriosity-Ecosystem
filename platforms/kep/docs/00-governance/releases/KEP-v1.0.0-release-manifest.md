@@ -6,7 +6,7 @@
 | Manifest Status | Authoritative |
 | Release Status | Published and Effective |
 | Publication Date | July 25, 2026 |
-| Canonical Repository | `kashifyounus/Kuriosity-Ecosystem` (`platforms/kep/`) |
+| Canonical Repository | `kashifyounus/kuriosity-engineering-platform` |
 | Authoritative Branch | `main` |
 | Release Declaration | `docs/00-governance/releases/KEP-v1.0.0-release-declaration.md` |
 | Contractual Adoption Identifier | `v1.0.0` |
@@ -70,7 +70,7 @@ A product adoption contract shall use all of the following coordinates:
 | Coordinate | Required Value |
 | --- | --- |
 | Framework | Kuriosity Engineering Platform |
-| Canonical Repository | `kashifyounus/Kuriosity-Ecosystem` (`platforms/kep/`) |
+| Canonical Repository | `kashifyounus/kuriosity-engineering-platform` |
 | Adopted Release | `v1.0.0` |
 | Manifest | `docs/00-governance/releases/KEP-v1.0.0-release-manifest.md` |
 | Standards | Explicit identifiers and versions selected from Section 2 |

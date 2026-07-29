@@ -58,3 +58,14 @@
 | KE-TERM-001 | Effective | Not Applicable | `reference/terminology/KE-TERM-001-canonical-terminology.md` |
 
 No active artifact is maintained outside this repository.
+
+## Proposed Horizontal Controls
+
+These artifacts are registered for review and are not part of the effective KE v2.0.0 normative manifest.
+
+| ID | Version | Lifecycle | Approval | Verification | Path |
+|---|---:|---|---|---|---|
+| KE-SEC-001 | 0.1 | Proposed | Pending | Not Reviewed | `standards/KE-SEC-001-security-engineering-and-assurance-standard.md` |
+| KE-DATA-001 | 0.1 | Proposed | Pending | Not Reviewed | `standards/KE-DATA-001-data-governance-and-quality-standard.md` |
+| KE-AI-001 | 0.1 | Proposed | Pending | Not Reviewed | `standards/KE-AI-001-ai-engineering-and-assurance-standard.md` |
+| KE-RPT-007 | N/A | Review Required | Not Applicable | Pass with Conditions | `docs/verification/KE-RPT-007-horizontal-controls-audit.md` |

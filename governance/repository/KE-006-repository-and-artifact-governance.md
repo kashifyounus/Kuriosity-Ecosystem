@@ -5,11 +5,18 @@
 | Field | Value |
 |---|---|
 | Identifier | KE-006 |
-| Version | 1.0 |
-| Status | Approved; Effective |
+| Title | Repository and Artifact Governance |
+| Artifact Type | Governance Policy |
+| Version | 1.1 |
+| Lifecycle Status | Effective |
+| Approval Status | Approved |
+| Verification Status | Pass |
 | Authority | KE-000 through KE-005 |
 | Owner | KE Repository Maintainer |
 | Effective Date | 2026-07-29 |
+| Scope | Canonical repository, artifact control, publication, integrity, and repository verification |
+| Amendment Path | KE-007 |
+| Supersession State | Current; supersedes KE-006 Version 1.0 |
 
 ## 1. Canonical Repository
 
@@ -39,6 +46,8 @@ Repository changes shall:
 8. merge through a reviewable pull request; and
 9. verify the authoritative branch after merge.
 
+Repository-controlled ownership and deterministic validation shall protect publication. CODEOWNERS and validation workflows are minimum repository evidence; administrative branch or ruleset settings shall be documented and verified separately.
+
 ## 5. Source Integrity
 
 Historical artifacts may be retained only when clearly marked non-normative, self-contained, and free of active dependency. Stale drafts, superseded release candidates, duplicate authorities, and empty structures without current purpose should be removed.
@@ -53,4 +62,4 @@ Publication verification shall check authority, status, version, links, terminol
 
 ## 8. Approval
 
-Approved by the Kuriosity Ecosystem Founding Authority on 2026-07-29 through KE-APR-002.
+Version 1.1 approved by the Kuriosity Ecosystem Founding Authority on 2026-07-29 through KE-APR-003.

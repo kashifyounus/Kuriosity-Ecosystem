@@ -6,11 +6,11 @@
 |---|---|
 | Identifier | KE-003 |
 | Title | Ecosystem Authority and Responsibility Model |
-| Version | 0.1 |
-| Status | Proposed for Ratification |
+| Version | 1.0 |
+| Status | Ratified; Effective |
 | Authority Level | Foundational authority model; subordinate to KE-000, KE-001, and KE-002 |
 | Owner | Kuriosity Ecosystem Founding Authority |
-| Effective Date | Not effective until ratified |
+| Effective Date | 2026-07-29 |
 | Applies To | Human and automated participants acting under KE authority |
 
 ## 1. Purpose
@@ -113,8 +113,8 @@ A permanent transfer of accountability requires an approved ownership or success
 
 | Field | Value |
 |---|---|
-| Ratified By | Pending |
+| Ratified By | Kuriosity Ecosystem Founding Authority |
 | Authority | Kuriosity Ecosystem Founding Authority |
-| Effective Date | Pending |
-| Approval Record | Pending |
+| Effective Date | 2026-07-29 |
+| Approval Record | `governance/approvals/KE-foundation-v1.0-ratification-and-relocation-approval-record.md` |
 

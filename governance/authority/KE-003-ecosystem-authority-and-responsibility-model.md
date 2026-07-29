@@ -116,5 +116,5 @@ A permanent transfer of accountability requires an approved ownership or success
 | Ratified By | Kuriosity Ecosystem Founding Authority |
 | Authority | Kuriosity Ecosystem Founding Authority |
 | Effective Date | 2026-07-29 |
-| Approval Record | `governance/approvals/KE-foundation-v1.0-ratification-and-relocation-approval-record.md` |
+| Approval Record | `governance/approvals/KE-APR-001-foundation-v1.0-ratification-record.md` |
 

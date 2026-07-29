@@ -6,11 +6,11 @@
 |---|---|
 | Identifier | KE-001 |
 | Title | Kuriosity Ecosystem Founding Charter |
-| Version | 0.1 |
-| Status | Proposed for Ratification |
+| Version | 1.0 |
+| Status | Ratified; Effective |
 | Authority Level | Foundational; subordinate to KE-000 |
 | Owner | Kuriosity Ecosystem Founding Authority |
-| Effective Date | Not effective until ratified |
+| Effective Date | 2026-07-29 |
 | Applies To | The Kuriosity Ecosystem and its admitted platforms |
 
 ## 1. Purpose
@@ -113,8 +113,8 @@ This Charter may be ratified only after:
 
 | Field | Value |
 |---|---|
-| Ratified By | Pending |
+| Ratified By | Kuriosity Ecosystem Founding Authority |
 | Authority | Kuriosity Ecosystem Founding Authority |
-| Effective Date | Pending |
-| Approval Record | Pending |
+| Effective Date | 2026-07-29 |
+| Approval Record | `governance/approvals/KE-foundation-v1.0-ratification-and-relocation-approval-record.md` |
 

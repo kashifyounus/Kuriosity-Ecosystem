@@ -6,15 +6,15 @@
 | Title | Release Engineering and Assurance Standard |
 | Artifact Type | Standard |
 | Version | 1.0 |
-| Lifecycle Status | Proposed |
+| Lifecycle Status | Effective |
 | Approval Status | Approved |
 | Verification Status | Pass |
 | Authority | KE-005, KE-007, KE-GOV-001, KE-REV-001, KE-SEC-001, and KE-DATA-001 |
 | Owner | Release Authority |
-| Effective Date | Pending publication |
+| Effective Date | 2026-07-30 |
 | Scope | Technology-neutral release engineering, supply-chain integrity, promotion, rollback, and assurance for KE, admitted platforms, and conforming products |
 | Amendment Path | KE-007 |
-| Supersession State | Candidate for KE v2.1.0; supersedes none |
+| Supersession State | Current; supersedes none |
 
 ## 1. Purpose
 
@@ -65,4 +65,4 @@ Material releases shall define observability, support ownership, incident routin
 
 ## 12. Approval and Publication Gate
 
-Version 1.0 was approved by the Product Owner on 2026-07-30 through KE-APR-004 and verified for candidate publication through KE-RPT-008. It remains non-effective until KE v2.1.0 is merged to `main` and post-merge verification passes.
+Version 1.0 was approved by the Product Owner on 2026-07-30 through KE-APR-004 and verified for candidate publication through KE-RPT-008. It became Effective with KE v2.1.0 publication and successful post-merge verification recorded in KE-RPT-008.

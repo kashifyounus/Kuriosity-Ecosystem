@@ -70,3 +70,16 @@ The foundation publication package may proceed as a draft, but merge and release
 
 The package is suitable for a draft pull request. It is not approved for merge to `main`, release declaration, product adoption, standalone repository deletion, or public-distribution claims.
 
+
+## 8. Post-Approval Update — 2026-07-29
+
+The Product Owner closed the four decision items in Section 6:
+
+- private founding repositories approved;
+- SNS_GATEWAY designated as the secondary KEP validation context;
+- KE-001 through KE-004 ratified at Version 1.0; and
+- KEP v1.0.1 relocation release-package preparation approved.
+
+Repository-controlled ratification, designation, manifest, declaration, approval, verification, and adoption-guidance artifacts are now present on the alignment branch.
+
+**Current outcome: Conditional Pass for final review preparation.** GitHub metadata still reports both founding repositories as public. The PR shall remain draft until the approved privacy changes are executed and verified.

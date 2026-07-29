@@ -5,11 +5,18 @@
 | Field | Value |
 |---|---|
 | Identifier | KE-005 |
+| Title | Engineering Governance Framework |
+| Artifact Type | Governance Framework |
 | Version | 1.0 |
-| Status | Ratified; Effective |
+| Lifecycle Status | Effective |
+| Approval Status | Ratified |
+| Verification Status | Pass |
 | Authority | KE-000 through KE-003 |
 | Owner | Ecosystem Engineering Authority |
 | Effective Date | 2026-07-29 |
+| Scope | Binding engineering outcomes for KE-governed platforms and conforming products |
+| Amendment Path | KE-007 |
+| Supersession State | Current; supersedes none |
 
 ## 1. Purpose
 

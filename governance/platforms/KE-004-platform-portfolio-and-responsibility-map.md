@@ -5,12 +5,18 @@
 | Field | Value |
 |---|---|
 | Identifier | KE-004 |
+| Title | Platform Portfolio and Responsibility Map |
+| Artifact Type | Portfolio Governance |
 | Version | 1.1 |
-| Status | Ratified; Effective |
+| Lifecycle Status | Effective |
+| Approval Status | Ratified |
+| Verification Status | Pass |
 | Authority | KE-000 through KE-003 |
 | Owner | Kuriosity Ecosystem Founding Authority |
 | Effective Date | 2026-07-29 |
-| Supersedes | KE-004 Version 1.0 |
+| Scope | Recognition, admission boundary, lifecycle status, and responsibility mapping for KE platforms |
+| Amendment Path | KE-002, KE-007, and an approved portfolio decision |
+| Supersession State | Current; supersedes KE-004 Version 1.0 |
 
 ## 1. Purpose
 

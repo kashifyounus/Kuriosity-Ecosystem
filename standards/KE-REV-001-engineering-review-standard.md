@@ -2,11 +2,19 @@
 
 | Field | Value |
 |---|---|
+| Identifier | KE-REV-001 |
+| Title | Engineering Review Standard |
+| Artifact Type | Standard |
 | Version | 1.0 |
-| Status | Effective |
-| Authority | KE-005 |
+| Lifecycle Status | Effective |
+| Approval Status | Approved |
+| Verification Status | Pass |
+| Authority | KE-005 and KE-007 |
 | Owner | Ecosystem Engineering Authority |
 | Effective Date | 2026-07-29 |
+| Scope | Risk-scaled engineering review dimensions, findings, outcomes, and evidence |
+| Amendment Path | KE-007 |
+| Supersession State | Current; supersedes none |
 
 ## 1. Required Review Dimensions
 

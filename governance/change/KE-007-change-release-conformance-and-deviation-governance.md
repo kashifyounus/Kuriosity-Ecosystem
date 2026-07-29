@@ -5,11 +5,18 @@
 | Field | Value |
 |---|---|
 | Identifier | KE-007 |
-| Version | 1.0 |
-| Status | Approved; Effective |
+| Title | Change, Release, Conformance, and Deviation Governance |
+| Artifact Type | Governance Policy |
+| Version | 1.1 |
+| Lifecycle Status | Effective |
+| Approval Status | Approved |
+| Verification Status | Pass |
 | Authority | KE-000 through KE-006 |
 | Owner | Ecosystem Governance Authority |
 | Effective Date | 2026-07-29 |
+| Scope | KE change classification, versioning, release, conformance, deviation, correction, and retirement |
+| Amendment Path | KE-000 Section 7 when constitutional authority is affected; otherwise this instrument |
+| Supersession State | Current; supersedes KE-007 Version 1.0 |
 
 ## 1. Change Classification
 
@@ -31,6 +38,10 @@ KE uses semantic release identifiers:
 - patch — non-normative, editorial, or evidence correction without changed obligation.
 
 Individual instruments retain their own controlled versions.
+
+### 2.1 Corrective Release
+
+When an effective release identifier is discovered to understate a breaking change, KE shall not rewrite or backdate repository history. The next release shall use the correct major identifier, explicitly supersede the misclassified release, preserve the compatibility and migration record, and identify the correction authority and evidence.
 
 ## 3. Release
 
@@ -69,4 +80,4 @@ After these gates pass, an external retired repository may be archived or delete
 
 ## 7. Approval
 
-Approved by the Kuriosity Ecosystem Founding Authority on 2026-07-29 through KE-APR-002.
+Version 1.1 approved by the Kuriosity Ecosystem Founding Authority on 2026-07-29 through KE-APR-003.

@@ -5,12 +5,18 @@
 | Field | Value |
 |---|---|
 | Identifier | KE-001 |
+| Title | Kuriosity Ecosystem Founding Charter |
+| Artifact Type | Founding Charter |
 | Version | 1.1 |
-| Status | Ratified; Effective |
+| Lifecycle Status | Effective |
+| Approval Status | Ratified |
+| Verification Status | Pass |
 | Authority | KE-000 |
 | Owner | Kuriosity Ecosystem Founding Authority |
 | Effective Date | 2026-07-29 |
-| Supersedes | KE-001 Version 1.0 |
+| Scope | KE mission, founding outcomes, ecosystem scope, platform recognition, and repository authority |
+| Amendment Path | KE-000 Section 7 and KE-007 |
+| Supersession State | Current; supersedes KE-001 Version 1.0 |
 
 ## 1. Purpose
 

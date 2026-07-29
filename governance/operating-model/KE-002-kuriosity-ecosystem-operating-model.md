@@ -5,12 +5,18 @@
 | Field | Value |
 |---|---|
 | Identifier | KE-002 |
+| Title | Kuriosity Ecosystem Operating Model |
+| Artifact Type | Operating Model |
 | Version | 1.1 |
-| Status | Ratified; Effective |
+| Lifecycle Status | Effective |
+| Approval Status | Ratified |
+| Verification Status | Pass |
 | Authority | KE-000 and KE-001 |
 | Owner | Kuriosity Ecosystem Founding Authority |
 | Effective Date | 2026-07-29 |
-| Supersedes | KE-002 Version 1.0 |
+| Scope | KE operating units and engineering, platform, product-conformance, change, release, exception, and automation lifecycles |
+| Amendment Path | KE-007 |
+| Supersession State | Current; supersedes KE-002 Version 1.0 |
 
 ## 1. Purpose
 

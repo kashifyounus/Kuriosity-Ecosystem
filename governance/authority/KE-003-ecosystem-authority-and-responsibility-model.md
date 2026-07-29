@@ -6,12 +6,17 @@
 |---|---|
 | Identifier | KE-003 |
 | Title | Ecosystem Authority and Responsibility Model |
+| Artifact Type | Authority Model |
 | Version | 1.0 |
-| Status | Ratified; Effective |
-| Authority Level | Foundational authority model; subordinate to KE-000, KE-001, and KE-002 |
+| Lifecycle Status | Effective |
+| Approval Status | Ratified |
+| Verification Status | Pass |
+| Authority | KE-000, KE-001, and KE-002 |
 | Owner | Kuriosity Ecosystem Founding Authority |
 | Effective Date | 2026-07-29 |
-| Applies To | Human and automated participants acting under KE authority |
+| Scope | Human and automated participants acting under KE authority |
+| Amendment Path | KE-000 Section 7 and KE-007 |
+| Supersession State | Current; supersedes none |
 
 ## 1. Purpose
 

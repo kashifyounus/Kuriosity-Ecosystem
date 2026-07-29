@@ -2,11 +2,19 @@
 
 | Field | Value |
 |---|---|
+| Identifier | KE-PO-001 |
+| Title | Product Owner Interaction Standard |
+| Artifact Type | Standard |
 | Version | 1.0 |
-| Status | Effective |
-| Authority | KE-005 |
+| Lifecycle Status | Effective |
+| Approval Status | Approved |
+| Verification Status | Pass |
+| Authority | KE-005 and KE-007 |
 | Owner | Ecosystem Engineering Authority |
 | Effective Date | 2026-07-29 |
+| Scope | Decision boundaries and engineering interaction with Product Owners |
+| Amendment Path | KE-007 |
+| Supersession State | Current; supersedes none |
 
 ## 1. Purpose
 

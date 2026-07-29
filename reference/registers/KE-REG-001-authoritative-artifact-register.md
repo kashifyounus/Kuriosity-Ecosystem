@@ -8,7 +8,7 @@
 | Lifecycle Status | Effective |
 | Owner | KE Repository Maintainer |
 | Date | 2026-07-29 |
-| Scope | KE v1.1.0 effective baseline and approved KE v2.0.0 candidate |
+| Scope | KE v2.0.0 effective baseline |
 
 ## Foundation and Governance
 
@@ -46,13 +46,13 @@
 
 | ID | Lifecycle | Verification | Path |
 |---|---|---|---|
-| KE-REL-001 | Effective | Pass | `governance/releases/KE-REL-001-v1.1.0-release-declaration.md` |
-| KE-REL-002 | Effective | Pass | `governance/releases/KE-REL-002-v1.1.0-release-manifest.md` |
-| KE-REL-003 | Proposed | Pass with Conditions | `governance/releases/KE-REL-003-v2.0.0-release-declaration.md` |
-| KE-REL-004 | Proposed | Pass with Conditions | `governance/releases/KE-REL-004-v2.0.0-release-manifest.md` |
+| KE-REL-001 | Superseded | Pass | `governance/releases/KE-REL-001-v1.1.0-release-declaration.md` |
+| KE-REL-002 | Superseded | Pass | `governance/releases/KE-REL-002-v1.1.0-release-manifest.md` |
+| KE-REL-003 | Effective | Pass | `governance/releases/KE-REL-003-v2.0.0-release-declaration.md` |
+| KE-REL-004 | Effective | Pass | `governance/releases/KE-REL-004-v2.0.0-release-manifest.md` |
 | KE-RPT-004 | Archived | Pass | `docs/verification/KE-RPT-004-ke-only-zero-dependency-verification.md` |
 | KE-RPT-005 | Archived | Pass | `docs/verification/KE-RPT-005-benchmark-and-repository-audit.md` |
-| KE-RPT-006 | Review Required | Pass with Conditions | `docs/verification/KE-RPT-006-v2.0.0-foundation-verification.md` |
+| KE-RPT-006 | Archived | Pass | `docs/verification/KE-RPT-006-v2.0.0-foundation-verification.md` |
 | KE-HIST-001 | Archived | Not Applicable | `reference/history/KE-HIST-001-engineering-platform-retirement-record.md` |
 | KE-REG-002 | Effective | Not Applicable | `reference/registers/KE-REG-002-platform-portfolio-register.md` |
 | KE-TERM-001 | Effective | Not Applicable | `reference/terminology/KE-TERM-001-canonical-terminology.md` |

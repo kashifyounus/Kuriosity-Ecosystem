@@ -6,11 +6,11 @@
 |---|---|
 | Identifier | KE-002 |
 | Title | Kuriosity Ecosystem Operating Model |
-| Version | 0.1 |
-| Status | Proposed for Ratification |
+| Version | 1.0 |
+| Status | Ratified; Effective |
 | Authority Level | Foundational operating governance; subordinate to KE-000 and KE-001 |
 | Owner | Kuriosity Ecosystem Founding Authority |
-| Effective Date | Not effective until ratified |
+| Effective Date | 2026-07-29 |
 | Applies To | KE governance, admitted platforms, and products claiming KE adoption |
 
 ## 1. Purpose
@@ -151,8 +151,8 @@ KE shall perform:
 
 | Field | Value |
 |---|---|
-| Ratified By | Pending |
+| Ratified By | Kuriosity Ecosystem Founding Authority |
 | Authority | Kuriosity Ecosystem Founding Authority |
-| Effective Date | Pending |
-| Approval Record | Pending |
+| Effective Date | 2026-07-29 |
+| Approval Record | `governance/approvals/KE-foundation-v1.0-ratification-and-relocation-approval-record.md` |
 

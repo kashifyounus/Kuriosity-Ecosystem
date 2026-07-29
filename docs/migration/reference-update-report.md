@@ -1,19 +1,32 @@
-# Reference Update Report
+# KEP Repository Coordinate Review
 
 ## Result
 
-**Pass**
+**Corrected**
 
-Repository-coordinate searches found five references to the retired standalone repository coordinate. They were updated to the canonical ecosystem repository and KEP location:
+The migration initially changed five KEP v1.0.0 repository-coordinate references across four Markdown files. Release-governance review determined that these edits would silently alter approved v1.0.0 adoption coordinates, contrary to the v1.0.0 manifest change-control rule.
 
-`kashifyounus/Kuriosity-Ecosystem` (`platforms/kep/`)
+The five edits have been reversed. KEP v1.0.0 again identifies its historical canonical repository:
 
-## Updated Files
+`kashifyounus/kuriosity-engineering-platform`
 
-- `platforms/kep/docs/00-governance/releases/KEP-v1.0.0-release-manifest.md` — two occurrences
-- `platforms/kep/docs/00-governance/releases/KEP-v1.0.0-release-declaration.md` — one occurrence
-- `platforms/kep/docs/00-governance/verification/KEP-v1.0.0-product-adoption-verification.md` — one occurrence
-- `platforms/kep/docs/00-governance/reports/KEP-RPT-GOV-002-governance-package-implementation-completion-report.md` — one occurrence
+The proposed destination remains:
 
-No engineering clauses, terminology, lifecycle decisions, or governance authority were rewritten. No Markdown inline links or badges required correction.
+`kashifyounus/Kuriosity-Ecosystem` at `platforms/kep/`
 
+That destination is not an approved product-adoption coordinate until a controlled successor release is approved and published.
+
+## Corrected Files
+
+- `platforms/kep/docs/00-governance/releases/KEP-v1.0.0-release-manifest.md` — two historical coordinates restored.
+- `platforms/kep/docs/00-governance/releases/KEP-v1.0.0-release-declaration.md` — one historical coordinate restored.
+- `platforms/kep/docs/00-governance/verification/KEP-v1.0.0-product-adoption-verification.md` — one historical coordinate restored.
+- `platforms/kep/docs/00-governance/reports/KEP-RPT-GOV-002-governance-package-implementation-completion-report.md` — one historical coordinate restored.
+
+## Successor Release Control
+
+The proposed relocation is governed by:
+
+`platforms/kep/docs/00-governance/releases/KEP-v1.0.1-relocation-release-plan.md`
+
+No KEP v1.0.1 release is declared, effective, or product-adoptable by this correction.

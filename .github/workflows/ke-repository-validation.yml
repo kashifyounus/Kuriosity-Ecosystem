@@ -21,3 +21,7 @@ jobs:
           python-version: "3.12"
       - name: Validate KE authority and metadata
         run: python tools/validate_repository.py
+      - name: Validate autonomous engineering state
+        run: python tools/ke_harness.py validate
+      - name: Test autonomous engineering harness
+        run: python -m unittest discover -s tests -p "test_*.py"

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "name": "KE Autonomous Engineering Harness",
+  "authority_chain": [
+    "Product Owner",
+    "KE Ecosystem Authority",
+    "KE work queue",
+    "repository harness",
+    "authorized agent",
+    "deterministic quality gates",
+    "independent review",
+    "pull request and serialized merge",
+    "authoritative main"
+  ],
+  "authoritative_branch": "main",
+  "executor_is_authority": false,
+  "selection": {
+    "eligible_status": "Ready",
+    "dependency_satisfied_statuses": ["Approved", "Completed"],
+    "order": ["priority", "id"],
+    "one_write_claim_per_work_item": true
+  },
+  "lease": {
+    "default_minutes": 60,
+    "maximum_minutes": 180,
+    "renewal_requires_owner": true,
+    "expired_lease_requires_recovery": true
+  },
+  "merge": {
+    "serialized": true,
+    "human_authority_required": true,
+    "revalidate_before_merge": [
+      "baseline divergence",
+      "head SHA",
+      "scope",
+      "dependencies",
+      "required checks",
+      "reviews and unresolved threads",
+      "merge ambiguity"
+    ],
+    "post_merge_main_verification_required": true
+  },
+  "stop_conditions": [
+    "constitutional or normative authority change",
+    "platform lifecycle or mandate decision",
+    "missing or ambiguous requirement",
+    "new material architecture, security, data, AI, legal, compliance, or residual-risk decision",
+    "destructive or irreversible migration",
+    "scope expansion",
+    "conflicting authority",
+    "failed mandatory gate outside authorized remediation",
+    "ambiguous merge",
+    "Product Owner or competent human decision required"
+  ],
+  "recovery": {
+    "bounded_retry": true,
+    "blind_merge_retry": false,
+    "resume_from_repository_checkpoint": true,
+    "verify_no_active_writer_before_recovery": true
+  },
+  "cost_controls": {
+    "deterministic_checks_before_ai": true,
+    "batch_independent_reads": true,
+    "avoid_duplicate_analysis": true,
+    "pause_without_bypassing_gates": true
+  }
+}

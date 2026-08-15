@@ -170,7 +170,11 @@ for path in link_files:
         if not target.exists():
             errors.append(f"{path.relative_to(ROOT)}: broken local link to {target.relative_to(ROOT)}")
 
-for relpath in ("CODEOWNERS", ".github/workflows/ke-repository-validation.yml", "SECURITY.md", "CONTRIBUTING.md"):
+for relpath in (
+    "CODEOWNERS", ".github/workflows/ke-repository-validation.yml", "SECURITY.md", "CONTRIBUTING.md",
+    "AGENTS.md", "engineering-harness/manifest.json", "engineering-harness/work-queue.json",
+    "engineering-harness/execution-register.json", "tools/ke_harness.py", "tests/test_ke_harness.py",
+):
     if not (ROOT / relpath).is_file():
         errors.append(f"missing repository control: {relpath}")
 

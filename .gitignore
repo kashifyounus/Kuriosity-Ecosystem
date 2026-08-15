@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+engineering-harness/.state.lock
+engineering-harness/.transaction.json
+engineering-harness/*.tmp

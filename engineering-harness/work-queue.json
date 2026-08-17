@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-15T00:00:00Z",
+  "updated_at": "2026-08-17T10:36:57Z",
   "work_items": [
     {
       "id": "KE-EWP-001",
@@ -11,7 +11,7 @@
       "dependencies": [],
       "priority": 10,
       "risk_class": "R2",
-      "status": "Review",
+      "status": "Completed",
       "authorization": "Product Owner instruction dated 2026-08-15; proposed through PR #10",
       "deliverables": [
         "AGENTS.md",
@@ -29,7 +29,7 @@
         "authoritative main is revalidated"
       ],
       "active_execution_id": null,
-      "escalation": "Explicit approval and merge authority"
+      "escalation": "None; completion reconciled to PR #10 merge on authoritative main 2d9c1628b8fd2a1aebaa8cde6d891f3dfb0a75c1"
     },
     {
       "id": "KE-EWP-002",
@@ -37,13 +37,24 @@
       "stream": "Repository Enforcement",
       "milestone": "Protected authority",
       "objective": "Configure and verify administrative protection for authoritative main.",
-      "dependencies": ["KE-EWP-001"],
+      "dependencies": [
+        "KE-EWP-001"
+      ],
       "priority": 20,
       "risk_class": "R2",
       "status": "Blocked",
       "authorization": "KE-006 and KE-RPT-009 recommendation",
-      "deliverables": ["branch/ruleset evidence", "required-check evidence", "post-configuration verification record"],
-      "completion_criteria": ["required PR and review controls enabled", "force-push and deletion blocked", "KE validation required", "bypass restricted and evidenced"],
+      "deliverables": [
+        "branch/ruleset evidence",
+        "required-check evidence",
+        "post-configuration verification record"
+      ],
+      "completion_criteria": [
+        "required PR and review controls enabled",
+        "force-push and deletion blocked",
+        "KE validation required",
+        "bypass restricted and evidenced"
+      ],
       "active_execution_id": null,
       "escalation": "GitHub administrative mutation is not available to the current repository interface"
     },
@@ -53,13 +64,26 @@
       "stream": "KEC Admission",
       "milestone": "First platform mandate",
       "objective": "Complete the evidence and human decisions required to assess the KEC mandate.",
-      "dependencies": ["KE-EWP-001", "KE-EWP-002"],
+      "dependencies": [
+        "KE-EWP-001",
+        "KE-EWP-002"
+      ],
       "priority": 30,
       "risk_class": "R3",
       "status": "Blocked",
       "authorization": "KE-002 and KE-004; KEC remains Recognized",
-      "deliverables": ["exact capability inventory", "accountable owner", "architecture boundary", "dependency map", "admission assessment"],
-      "completion_criteria": ["all KE-004 admission requirements evidenced", "independent review completed", "competent human admission decision recorded"],
+      "deliverables": [
+        "exact capability inventory",
+        "accountable owner",
+        "architecture boundary",
+        "dependency map",
+        "admission assessment"
+      ],
+      "completion_criteria": [
+        "all KE-004 admission requirements evidenced",
+        "independent review completed",
+        "competent human admission decision recorded"
+      ],
       "active_execution_id": null,
       "escalation": "Ecosystem Authority must decide KEC capability inventory and accountable owner"
     },
@@ -69,13 +93,22 @@
       "stream": "Remaining Platform Mandates",
       "milestone": "Individual platform evaluation",
       "objective": "Evaluate remaining recognized platforms individually after KEC boundaries are established.",
-      "dependencies": ["KE-EWP-003"],
+      "dependencies": [
+        "KE-EWP-003"
+      ],
       "priority": 40,
       "risk_class": "R3",
       "status": "Backlog",
       "authorization": "KE-004 platform portfolio",
-      "deliverables": ["dependency-derived platform sequence", "one mandate and assessment package per platform"],
-      "completion_criteria": ["each platform independently assessed", "no implied bulk admission", "portfolio register reconciled"],
+      "deliverables": [
+        "dependency-derived platform sequence",
+        "one mandate and assessment package per platform"
+      ],
+      "completion_criteria": [
+        "each platform independently assessed",
+        "no implied bulk admission",
+        "portfolio register reconciled"
+      ],
       "active_execution_id": null,
       "escalation": "Platform mandate, owner, risk, and admission decisions remain human-reserved"
     },
@@ -85,13 +118,21 @@
       "stream": "Eligible Product Conformance",
       "milestone": "Product-owned adoption records",
       "objective": "Enable eligible products to prepare KE conformance evidence through their own authority and repositories.",
-      "dependencies": ["KE-EWP-001"],
+      "dependencies": [
+        "KE-EWP-001"
+      ],
       "priority": 50,
       "risk_class": "R2",
       "status": "Backlog",
       "authorization": "KE-002 and KE-007 product conformance model",
-      "deliverables": ["product-repository conformance packages for explicitly selected products"],
-      "completion_criteria": ["product authority preserved", "KE release and deviations explicit", "evidence and approval recorded"],
+      "deliverables": [
+        "product-repository conformance packages for explicitly selected products"
+      ],
+      "completion_criteria": [
+        "product authority preserved",
+        "KE release and deviations explicit",
+        "evidence and approval recorded"
+      ],
       "active_execution_id": null,
       "escalation": "Product selection and product-owned decisions; Metro-X Precision excluded from the current cycle"
     }
